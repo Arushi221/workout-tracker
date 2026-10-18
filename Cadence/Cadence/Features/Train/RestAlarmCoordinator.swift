@@ -21,6 +21,10 @@ final class RestAlarmCoordinator {
     private var alarmID: UUID?
 
     func schedule(endsAt: Date) {
+        // Xcode 26.0 (Swift 6.2) AlarmKit has a different presentation API; the in-app timer covers it.
+        #if !compiler(>=6.2.1)
+        return
+        #else
         guard #available(iOS 26.1, *) else { return }
         let duration = max(1, endsAt.timeIntervalSinceNow)
         let id = alarmID ?? UUID()
@@ -43,6 +47,7 @@ final class RestAlarmCoordinator {
                 // AlarmKit is unavailable, denied, or temporarily full.
             }
         }
+        #endif
     }
 
     func cancel() {

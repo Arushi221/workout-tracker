@@ -259,6 +259,8 @@ private struct LiveWorkoutTabAccessory: ViewModifier {
 
     @ViewBuilder
     func body(content: Content) -> some View {
+        // Xcode 26.0 (Swift 6.2) SDK lacks tabViewBottomAccessory(isEnabled:); keep building there.
+        #if compiler(>=6.2.1)
         if #available(iOS 26.1, *) {
             let enabled = active.isActive && active.strengthSession != nil
             content.tabViewBottomAccessory(isEnabled: enabled) {
@@ -269,6 +271,11 @@ private struct LiveWorkoutTabAccessory: ViewModifier {
                 if active.isActive, let session = active.strengthSession { accessory(session) }
             }
         }
+        #else
+        content.tabViewBottomAccessory {
+            if active.isActive, let session = active.strengthSession { accessory(session) }
+        }
+        #endif
     }
 
     private func accessory(_ session: WorkoutSession) -> some View {
