@@ -61,22 +61,10 @@ extension HomeView {
                 scheduledWorkoutBeingStarted = nil
             }
             .onReceive(NotificationCenter.default.publisher(for: .scheduledWorkoutStartRequested)) { note in
-                guard let request = note.object as? ScheduledWorkoutStartRequest else { return }
-                path = NavigationPath()
-                selectWorkoutPresented = false
-                weightsStartPresented = false
-                consumeScheduledWorkoutStart(request)
+                handleScheduledWorkoutStart(note)
             }
             .onReceive(NotificationCenter.default.publisher(for: .scheduledCardioStartRequested)) { note in
-                guard let request = note.object as? ScheduledCardioStartRequest else { return }
-                guard active.liveWorkout.active == nil else {
-                    showWorkoutConflict = true
-                    return
-                }
-                path = NavigationPath()
-                selectWorkoutPresented = false
-                weightsStartPresented = false
-                start(WorkoutType(rawValue: request.type.rawValue) ?? .other)
+                handleScheduledCardioStart(note)
             }
             .onReceive(NotificationCenter.default.publisher(for: .cadenceStartTodaysWorkout)) { _ in
                 _ = CadencePlatformRequestStore.consumeStartWorkout()
@@ -158,5 +146,31 @@ extension HomeView {
             weeklyDetailSelection.select(destination.detailMode)
         }
         weekScrollTarget = destination.detailMode
+    }
+}
+
+extension HomeView {
+    // Only Today starts workouts; This Week is also a HomeView and must not open
+    // a second editor for the same request (the Plan tab posts these too).
+    func handleScheduledWorkoutStart(_ note: Notification) {
+        guard surface == .today,
+              let request = note.object as? ScheduledWorkoutStartRequest else { return }
+        path = NavigationPath()
+        selectWorkoutPresented = false
+        weightsStartPresented = false
+        consumeScheduledWorkoutStart(request)
+    }
+
+    func handleScheduledCardioStart(_ note: Notification) {
+        guard surface == .today,
+              let request = note.object as? ScheduledCardioStartRequest else { return }
+        guard active.liveWorkout.active == nil else {
+            showWorkoutConflict = true
+            return
+        }
+        path = NavigationPath()
+        selectWorkoutPresented = false
+        weightsStartPresented = false
+        start(WorkoutType(rawValue: request.type.rawValue) ?? .other)
     }
 }

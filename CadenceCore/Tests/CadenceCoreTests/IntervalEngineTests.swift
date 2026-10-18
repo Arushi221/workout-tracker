@@ -20,7 +20,7 @@ final class IntervalEngineTests: XCTestCase {
         let plan = IntervalPlan.norwegian4x4()
         XCTAssertEqual(plan.phases.filter { $0.kind == .work }.count, 4)
         // warmup 600 + 4×240 + 3×180 recover + 300 cooldown.
-        let nwTotal: TimeInterval = 600 + 4 * 240 + 3 * 180 + 300
+        let nwTotal: TimeInterval = 2400 // 600 + 960 + 540 + 300
         XCTAssertEqual(plan.totalDuration, nwTotal, accuracy: 0.001)
         XCTAssertEqual(plan.phases.first(where: { $0.kind == .work })?.duration, 240)
     }

@@ -5,7 +5,7 @@ import CadenceCore
 import CadenceFeatures
 
 struct RootTabView: View {
-    enum Tab: Hashable { case home, thisWeek, progress, settings, search }
+    enum Tab: Hashable { case home, plan, thisWeek, progress, settings, search }
     @Environment(AppSettings.self) private var settings
     @Environment(AppModel.self) private var model
     @Environment(ActiveWorkoutModel.self) private var active
@@ -173,18 +173,18 @@ struct RootTabView: View {
             guard url.scheme == "cladiron" else { return }
             if url.host == "this-week" || url.path == "/this-week" {
                 selection = .thisWeek
+            } else if url.host == "plan" || url.path == "/plan" {
+                selection = .plan
             } else if url.host == "workout" || url.path == "/workout" {
                 selection = .home
                 CadencePlatformRequestStore.requestStartWorkout()
                 NotificationCenter.default.post(name: .cadenceStartTodaysWorkout, object: nil)
             } else {
-                // Old weekly-plan deep links remain safe after the Plan tab is
-                // retired: one-off scheduled workouts are reached from Home.
                 selection = .home
             }
         }
         .onContinueUserActivity(CadenceHandoff.planActivityType) { _ in
-            selection = .home
+            selection = .plan
         }
     }
 
@@ -193,6 +193,9 @@ struct RootTabView: View {
         if #available(iOS 18.0, *) {
             TabView(selection: $selection) {
                 SwiftUI.Tab("Today", systemImage: "house", value: .home) { HomeView() }
+                SwiftUI.Tab("Plan", systemImage: "list.bullet.clipboard", value: .plan) {
+                    PlanTabView { selection = .home }
+                }
                 SwiftUI.Tab("This Week", systemImage: "calendar", value: .thisWeek) { ThisWeekView() }
                 SwiftUI.Tab("Progress", systemImage: "chart.line.uptrend.xyaxis", value: .progress) {
                     AdaptiveProgressRoot()
@@ -204,6 +207,8 @@ struct RootTabView: View {
         } else {
             TabView(selection: $selection) {
                 HomeView().tabItem { Label("Today", systemImage: "house") }.tag(Tab.home)
+                PlanTabView { selection = .home }
+                    .tabItem { Label("Plan", systemImage: "list.bullet.clipboard") }.tag(Tab.plan)
                 ThisWeekView().tabItem { Label("This Week", systemImage: "calendar") }.tag(Tab.thisWeek)
                 AdaptiveProgressRoot().tabItem { Label("Progress", systemImage: "chart.line.uptrend.xyaxis") }.tag(Tab.progress)
             }

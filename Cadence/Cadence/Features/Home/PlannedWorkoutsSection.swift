@@ -217,22 +217,44 @@ struct PlannedWorkoutsListView: View {
     }
 
     private func start(_ record: ScheduledWorkout) {
-        failedStartRecordID = nil
-        if let cardio = try? ScheduledWorkoutStore.decodeCardioType(record.payloadData,
-                                                                    version: record.payloadVersion) {
-            NotificationCenter.default.post(
-                name: .scheduledCardioStartRequested,
-                object: ScheduledCardioStartRequest(recordID: record.id, type: cardio))
-            return
-        }
-        guard let plan = try? ScheduledWorkoutStore.decode(record.payloadData,
-                                                           version: record.payloadVersion) else {
+        guard let request = ScheduledWorkoutStartRouter.request(for: record) else {
             failedStartRecordID = record.id
             return
         }
-        NotificationCenter.default.post(
-            name: .scheduledWorkoutStartRequested,
-            object: ScheduledWorkoutStartRequest(recordID: record.id, plan: plan))
+        failedStartRecordID = nil
+        ScheduledWorkoutStartRouter.post(request)
+    }
+}
+
+/// Builds and posts the start request Today consumes (`HomeView+DashboardLifecycle`),
+/// shared by the Planned Workouts list and the Plan tab. Building is separate from
+/// posting so a caller can surface its retry alert before leaving its screen.
+enum ScheduledWorkoutStartRouter {
+    enum Request {
+        case strength(ScheduledWorkoutStartRequest)
+        case cardio(ScheduledCardioStartRequest)
+    }
+
+    /// Nil when the stored payload can't be decoded.
+    static func request(for record: ScheduledWorkout) -> Request? {
+        if let cardio = try? ScheduledWorkoutStore.decodeCardioType(record.payloadData,
+                                                                    version: record.payloadVersion) {
+            return .cardio(ScheduledCardioStartRequest(recordID: record.id, type: cardio))
+        }
+        guard let plan = try? ScheduledWorkoutStore.decode(record.payloadData,
+                                                           version: record.payloadVersion) else {
+            return nil
+        }
+        return .strength(ScheduledWorkoutStartRequest(recordID: record.id, plan: plan))
+    }
+
+    static func post(_ request: Request) {
+        switch request {
+        case .strength(let request):
+            NotificationCenter.default.post(name: .scheduledWorkoutStartRequested, object: request)
+        case .cardio(let request):
+            NotificationCenter.default.post(name: .scheduledCardioStartRequested, object: request)
+        }
     }
 }
 
