@@ -20,6 +20,13 @@ struct CloudKitSyncDiagnosticsView: View {
 
     var body: some View {
         Form {
+            if !CloudSyncBuild.isEnabled {
+                Section("iCloud") {
+                    Text(CloudSyncBuild.disabledExplanation)
+                        .font(.callout)
+                        .accessibilityIdentifier("settings.sync.diagnostics.localOnly")
+                }
+            } else {
             Section("This iPhone") {
                 if let snapshot {
                     diagnosticRow(String(localized: "Workout records"), value: "\(snapshot.localWorkoutCount)")
@@ -56,6 +63,8 @@ struct CloudKitSyncDiagnosticsView: View {
                 }
             }
 
+            }
+
             Section("Local store") {
                 diagnosticRow(String(localized: "Cladiron data"), value: storageUsage.appDataText)
                 diagnosticRow(String(localized: "Workout database"), value: storageUsage.workoutStoreText)
@@ -63,6 +72,7 @@ struct CloudKitSyncDiagnosticsView: View {
                 diagnosticRow("iCloud storage used", value: String(localized: "Not exposed by Apple"))
             }
 
+            if CloudSyncBuild.isEnabled {
             Section {
                 Button {
                     Task { await refresh() }
@@ -99,6 +109,7 @@ struct CloudKitSyncDiagnosticsView: View {
             } footer: {
                 Text("Normal sync is managed by Apple’s SwiftData/CloudKit mirror and is incremental; this screen cannot force it. Recovery only merges records from the older Cladiron backup, if one exists. It never deletes or overwrites local history.")
             }
+            }
         }
         .navigationTitle("iCloud Diagnostics")
         .navigationBarTitleDisplayMode(.inline)
@@ -122,12 +133,17 @@ struct CloudKitSyncDiagnosticsView: View {
             return
         }
         model.refreshCloudKitAccountStatus()
+        guard CloudSyncBuild.isEnabled else {
+            isRefreshing = false
+            return
+        }
         snapshot = await CloudKitRecoveryService(container: container).inspect()
         isRefreshing = false
     }
 
     private func recover() async {
         guard !isRecovering else { return }
+        guard CloudSyncBuild.isEnabled else { return }
         isRecovering = true
         message = nil
         guard let container else {

@@ -263,7 +263,7 @@ final class AppModel: NSObject, @unchecked Sendable {
             }
             _ = try StoreMigrationRuntime.migrate(
                 legacyURL: legacyURL, localURL: urls.local, syncURL: urls.sync,
-                stateURL: stateURL, snapshotURL: snapshotURL, cloudKitEnabled: true)
+                stateURL: stateURL, snapshotURL: snapshotURL, cloudKitEnabled: CloudSyncBuild.isEnabled)
             let context = ModelContext(oldContainer)
             _ = try await healthBackup.enqueueMigrationBackfill(from: context)
             try StoreMigrationRuntime.markHealthBackfillQueued(stateURL: stateURL)
@@ -414,6 +414,10 @@ final class AppModel: NSObject, @unchecked Sendable {
     func refreshCloudKitAccountStatus() {
         guard !isUITestMode else {
             cloudKitAccountAvailability = .available
+            return
+        }
+        guard CloudSyncBuild.isEnabled else {
+            cloudKitAccountAvailability = .disabledInBuild
             return
         }
         cloudKitAccountAvailability = .checking

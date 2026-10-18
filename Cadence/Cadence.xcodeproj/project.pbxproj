@@ -110,9 +110,9 @@
 		8D78A5262FD286E200AE7C2F /* Cadence Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cadence Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D78A5352FD286E300AE7C2F /* Cadence Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cadence Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D78A53F2FD286E300AE7C2F /* Cadence Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cadence Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		PW0000020000000000000001 /* CadenceWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = file; path = CadenceWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		PW0000020000000000000001 /* CadenceWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.extensionkit-extension"; path = CadenceWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		PW0000040000000000000001 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		WW0000020000000000000001 /* CadenceWatchWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = file; path = CadenceWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		WW0000020000000000000001 /* CadenceWatchWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.extensionkit-extension"; path = CadenceWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		WW0000040000000000000001 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -912,9 +912,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guru.parso.ios-workout-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arushi.cladiron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "LOCAL_ONLY_STORE $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
@@ -928,11 +929,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Cadence/Cadence.Release.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cadence/Preview Content\"";
-				DEVELOPMENT_TEAM = 3264Y8YUGV;
+				DEVELOPMENT_TEAM = 536D8ZF284;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cadence/Info.plist;
@@ -958,7 +959,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "guru.parso.ios-workout-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Parso Workout App Store";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
@@ -1043,23 +1044,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Cadence Watch App Watch App/Cadence Watch App Watch App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Cadence Watch App Watch App/Cadence Watch App Watch App.Debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cadence Watch App Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = 3264Y8YUGV;
+				DEVELOPMENT_TEAM = 536D8ZF284;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cadence-Watch-App-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Cladiron;
 				INFOPLIST_KEY_CFBundleName = Cladiron;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "guru.parso.ios-workout-app";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.arushi.cladiron;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guru.parso.ios-workout-app.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arushi.cladiron.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1194,12 +1195,12 @@
 				CODE_SIGN_ENTITLEMENTS = CadenceWidgets.Debug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3264Y8YUGV;
+				DEVELOPMENT_TEAM = 536D8ZF284;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ../CadenceWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guru.parso.ios-workout-app.widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arushi.cladiron.widgets;
 				PRODUCT_NAME = CadenceWidgets;
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1236,14 +1237,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = ../CadenceWatchWidgets/CadenceWatchWidgets.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../CadenceWatchWidgets/CadenceWatchWidgets.Debug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3264Y8YUGV;
+				DEVELOPMENT_TEAM = 536D8ZF284;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ../CadenceWatchWidgets/Info.plist;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "guru.parso.ios-workout-app.watchkitapp.widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arushi.cladiron.watchkitapp.widgets;
 				PRODUCT_NAME = CadenceWatchWidgets;
 				SDKROOT = watchos;
 				SKIP_INSTALL = NO;

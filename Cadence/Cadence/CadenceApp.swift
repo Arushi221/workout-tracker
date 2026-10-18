@@ -51,11 +51,12 @@ struct CadenceApp: App {
                 // local/Sync container. Existing legacy installs stay on the
                 // old container until the user explicitly starts migration
                 // from Backup & Restore, preserving an upgrade-safe path.
-                container = try CadenceStore.makeApplicationModelContainer()
+                container = try CadenceStore.makeApplicationModelContainer(
+                    cloudKitEnabled: CloudSyncBuild.isEnabled)
             } else {
                 container = try CadenceStore.makeModelContainer(
                     inMemory: uiTest && !persistentUITest,
-                    cloudKitEnabled: !persistentUITest,
+                    cloudKitEnabled: !persistentUITest && CloudSyncBuild.isEnabled,
                     storeURL: uiTestStoreURL)
             }
         } catch {

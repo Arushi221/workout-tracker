@@ -9,6 +9,8 @@ public enum CloudKitAccountAvailability: String, Codable, Equatable, Sendable {
     case noAccount
     case restricted
     case temporarilyUnavailable
+    /// This build can't use iCloud (personal-team signing); data stays on device.
+    case disabledInBuild
 
     public var displayName: String {
         switch self {
@@ -17,6 +19,7 @@ public enum CloudKitAccountAvailability: String, Codable, Equatable, Sendable {
         case .noAccount: return "Sign in to iCloud"
         case .restricted: return "Restricted"
         case .temporarilyUnavailable: return "Unavailable"
+        case .disabledInBuild: return "Off in this build"
         }
     }
 
