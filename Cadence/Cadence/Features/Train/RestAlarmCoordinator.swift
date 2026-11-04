@@ -53,7 +53,9 @@ final class RestAlarmCoordinator {
     func cancel() {
         guard let id = alarmID else { return }
         alarmID = nil
-        try? AlarmManager.shared.cancel(id: id)
+        if #available(iOS 26.0, *) {
+            try? AlarmManager.shared.cancel(id: id)
+        }
     }
     #else
     func schedule(endsAt: Date) {}
