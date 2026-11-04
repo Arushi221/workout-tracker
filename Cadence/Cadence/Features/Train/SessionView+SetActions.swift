@@ -81,10 +81,14 @@ extension SessionView {
     func syncRestAlarm(to endsAt: Date?) {
         active.restEndsAt = endsAt
         guard settings.restAlertMode == .alarm, let endsAt else {
-            RestAlarmCoordinator.shared.cancel()
+            if #available(iOS 26.0, *) {
+                RestAlarmCoordinator.shared.cancel()
+            }
             return
         }
-        RestAlarmCoordinator.shared.schedule(endsAt: endsAt)
+        if #available(iOS 26.0, *) {
+            RestAlarmCoordinator.shared.schedule(endsAt: endsAt)
+        }
     }
 
     func postVolumeChange(date: Date, delta: [MuscleGroup: Double]) {

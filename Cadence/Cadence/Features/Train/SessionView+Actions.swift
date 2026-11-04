@@ -263,7 +263,9 @@ extension SessionView {
     }
     func endWorkout() {
         WorkoutCues.endBeepSequence(enabled: settings.workoutSounds)
-        RestAlarmCoordinator.shared.cancel()
+        if #available(iOS 26.0, *) {
+            RestAlarmCoordinator.shared.cancel()
+        }
         model.stopWatchWorkout()
         if settings.autoSaveHealth, session.healthKitWorkoutUUID == nil, !session.orderedSets.isEmpty {
             Task { await saveToHealth() }
