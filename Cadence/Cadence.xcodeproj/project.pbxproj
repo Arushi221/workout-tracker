@@ -892,7 +892,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cadence/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Cladiron;
+				INFOPLIST_KEY_CFBundleDisplayName = Gymothy;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Cladiron connects to a Bluetooth chest strap to record accurate heart rate during workouts.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Cladiron reads your steps, workouts, heart rate, and — for recovery-aware coaching — your heart-rate variability, resting heart rate, sleep, and body weight, so your activity, Watch-recorded sessions, and readiness appear here. Your health data never leaves your device.";
@@ -937,7 +937,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cadence/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Cladiron;
+				INFOPLIST_KEY_CFBundleDisplayName = Gymothy;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Cladiron connects to a Bluetooth chest strap to record accurate heart rate during workouts.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Cladiron reads your steps, workouts, heart rate, and — for recovery-aware coaching — your heart-rate variability, resting heart rate, sleep, and body weight, so your activity, Watch-recorded sessions, and readiness appear here. Your health data never leaves your device.";
@@ -1052,7 +1052,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cadence-Watch-App-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Cladiron;
+				INFOPLIST_KEY_CFBundleDisplayName = Gymothy;
 				INFOPLIST_KEY_CFBundleName = Cladiron;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.arushi.cladiron;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1086,7 +1086,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cadence-Watch-App-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Cladiron;
+				INFOPLIST_KEY_CFBundleDisplayName = Gymothy;
 				INFOPLIST_KEY_CFBundleName = Cladiron;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "guru.parso.ios-workout-app";
 				LD_RUNPATH_SEARCH_PATHS = (
