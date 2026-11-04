@@ -5,13 +5,19 @@
       "comment" : "Info.plist CFBundleDisplayName — Apple Watch app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron"
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Cladiron"
@@ -52,10 +58,16 @@
             "state" : "needs_review",
             "value" : "Cladiron"
           }
-        },
-        "en-GB" : {
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "new",
             "value" : "Cladiron"
           }
         }
@@ -65,16 +77,22 @@
       "comment" : "Info.plist NSHealthShareUsageDescription — Apple Watch app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron liest während des Trainings die Herzfrequenz von deiner Apple Watch."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron reads heart rate from your Apple Watch during workouts."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron liest während des Trainings die Herzfrequenz von deiner Apple Watch."
+            "value" : "Cladiron reads heart rate from your Apple Watch during workouts."
           }
         },
         "es" : {
@@ -112,12 +130,6 @@
             "state" : "needs_review",
             "value" : "Cladiron 會在訓練時讀取 Apple Watch 的心率。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron reads heart rate from your Apple Watch during workouts."
-          }
         }
       }
     },
@@ -125,16 +137,22 @@
       "comment" : "Info.plist NSHealthUpdateUsageDescription — Apple Watch app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron sichert deine Trainingszusammenfassung in Health."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron saves your workout summary to Health."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron sichert deine Trainingszusammenfassung in Health."
+            "value" : "Cladiron saves your workout summary to Health."
           }
         },
         "es" : {
@@ -172,16 +190,11 @@
             "state" : "needs_review",
             "value" : "Cladiron 會將訓練摘要儲存到健康。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron saves your workout summary to Health."
-          }
         }
       }
     },
     "NSMicrophoneUsageDescription" : {
+      "comment" : "Info.plist NSMicrophoneUsageDescription — Apple Watch Quick Talk permission prompt",
       "extractionState" : "manual",
       "localizations" : {
         "de" : {
@@ -238,8 +251,7 @@
             "value" : "只有當你按住「記錄組數」說出一組訓練時，Cladiron 才會使用麥克風。你的 iPhone 會將其轉為文字，隨後刪除錄音。"
           }
         }
-      },
-      "comment" : "Info.plist NSMicrophoneUsageDescription — Apple Watch Quick Talk permission prompt"
+      }
     }
   },
   "version" : "1.0"

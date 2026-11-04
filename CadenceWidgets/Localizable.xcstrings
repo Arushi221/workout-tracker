@@ -2,19 +2,26 @@
   "sourceLanguage" : "en",
   "strings" : {
     "%@ %@/%@" : {
-      "shouldTranslate" : false,
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
+      "shouldTranslate" : false
     },
     "%@/%@" : {
-      "shouldTranslate" : false,
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
+      "shouldTranslate" : false
     },
     "+30s" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "+30 s"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "+30s"
           }
         },
         "es" : {
@@ -52,22 +59,22 @@
             "state" : "needs_review",
             "value" : "+30 秒"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "+30s"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "About %lld min" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Etwa %lld Min."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "About %lld min"
           }
         },
         "es" : {
@@ -105,22 +112,22 @@
             "state" : "needs_review",
             "value" : "約 %lld 分鐘"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "About %lld min"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Add 30 seconds" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "30 Sekunden hinzufügen"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Add 30 seconds"
           }
         },
         "es" : {
@@ -158,22 +165,22 @@
             "state" : "needs_review",
             "value" : "增加 30 秒"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Add 30 seconds"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Log" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Protokollieren"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Log"
           }
         },
         "es" : {
@@ -211,22 +218,22 @@
             "state" : "needs_review",
             "value" : "記錄"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Log"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Log planned set" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Geplanten Satz protokollieren"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Log planned set"
           }
         },
         "es" : {
@@ -264,22 +271,22 @@
             "state" : "needs_review",
             "value" : "記錄計畫組"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Log planned set"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Log set" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Satz protokollieren"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Log set"
           }
         },
         "es" : {
@@ -317,22 +324,22 @@
             "state" : "needs_review",
             "value" : "記錄一組"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Log set"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Log the next planned set in an active workout." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Nächsten geplanten Satz in einem aktiven Training protokollieren."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Log the next planned set in an active workout."
           }
         },
         "es" : {
@@ -370,19 +377,19 @@
             "state" : "needs_review",
             "value" : "在進行中的訓練中記錄下一組計畫組。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Log the next planned set in an active workout."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Mobility" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mobility"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Mobility"
@@ -423,22 +430,22 @@
             "state" : "needs_review",
             "value" : "活動度"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Mobility"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Next" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Weiter"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Next"
           }
         },
         "es" : {
@@ -476,22 +483,22 @@
             "state" : "needs_review",
             "value" : "下一步"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Next"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Open Cladiron and start today's workout." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Öffne Cladiron und starte das heutige Training."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open Cladiron and start today's workout."
           }
         },
         "es" : {
@@ -529,22 +536,22 @@
             "state" : "needs_review",
             "value" : "打開 Cladiron 並開始今天的訓練。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open Cladiron and start today's workout."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Open Cladiron to load this week's coverage" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Öffne Cladiron, um die Abdeckung dieser Woche zu laden"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open Cladiron to load this week's coverage"
           }
         },
         "es" : {
@@ -582,22 +589,22 @@
             "state" : "needs_review",
             "value" : "打開 Cladiron 以載入本週涵蓋情況"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open Cladiron to load this week's coverage"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Open Cladiron to load today's plan" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Öffne Cladiron, um den heutigen Plan zu laden"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open Cladiron to load today's plan"
           }
         },
         "es" : {
@@ -635,22 +642,22 @@
             "state" : "needs_review",
             "value" : "打開 Cladiron 以載入今天的計畫"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open Cladiron to load today's plan"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Open Cladiron to start today's workout." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Öffne Cladiron, um das heutige Training zu starten."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open Cladiron to start today's workout."
           }
         },
         "es" : {
@@ -688,22 +695,22 @@
             "state" : "needs_review",
             "value" : "打開 Cladiron 開始今天的訓練。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open Cladiron to start today's workout."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Open Quick Talk for hands-free logging." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Öffne Quick Talk für freihändiges Protokollieren."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open Quick Talk for hands-free logging."
           }
         },
         "es" : {
@@ -741,22 +748,22 @@
             "state" : "needs_review",
             "value" : "打開 Quick Talk 進行免手動記錄。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open Quick Talk for hands-free logging."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Open Quick Talk in the active workout." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Öffne Quick Talk im aktiven Training."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open Quick Talk in the active workout."
           }
         },
         "es" : {
@@ -794,22 +801,22 @@
             "state" : "needs_review",
             "value" : "在進行中的訓練裡打開 Quick Talk。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Open Quick Talk in the active workout."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Pending set token" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Ausstehendes Satz-Token"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pending set token"
           }
         },
         "es" : {
@@ -847,22 +854,22 @@
             "state" : "needs_review",
             "value" : "待處理組權杖"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Pending set token"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Recovery looks good" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Erholung sieht gut aus"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Recovery looks good"
           }
         },
         "es" : {
@@ -900,22 +907,22 @@
             "state" : "needs_review",
             "value" : "恢復良好"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Recovery looks good"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Rest" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Pause"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rest"
           }
         },
         "es" : {
@@ -953,22 +960,22 @@
             "state" : "needs_review",
             "value" : "休息"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Rest"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Rest or add a session" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Ruhen oder Einheit hinzufügen"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rest or add a session"
           }
         },
         "es" : {
@@ -1006,22 +1013,22 @@
             "state" : "needs_review",
             "value" : "休息或新增訓練"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Rest or add a session"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "See today's plan and readiness at a glance." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Heutigen Plan und Bereitschaft auf einen Blick sehen."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "See today's plan and readiness at a glance."
           }
         },
         "es" : {
@@ -1059,22 +1066,22 @@
             "state" : "needs_review",
             "value" : "一眼查看今天的計畫和準備度。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "See today's plan and readiness at a glance."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "See weekly muscle coverage at a glance." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Wöchentliche Muskelabdeckung auf einen Blick sehen."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "See weekly muscle coverage at a glance."
           }
         },
         "es" : {
@@ -1112,22 +1119,23 @@
             "state" : "needs_review",
             "value" : "一眼查看每週肌群涵蓋情況。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "See weekly muscle coverage at a glance."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Sessions" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Einheiten"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sessions"
           }
         },
         "es" : {
@@ -1165,22 +1173,22 @@
             "state" : "needs_review",
             "value" : "訓練"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Sessions"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Sets" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Sätze"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sets"
           }
         },
         "es" : {
@@ -1218,22 +1226,22 @@
             "state" : "needs_review",
             "value" : "組數"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Sets"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Skip" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Überspringen"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Skip"
           }
         },
         "es" : {
@@ -1271,22 +1279,22 @@
             "state" : "needs_review",
             "value" : "略過"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Skip"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Skip rest" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Pause überspringen"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Skip rest"
           }
         },
         "es" : {
@@ -1324,22 +1332,22 @@
             "state" : "needs_review",
             "value" : "略過休息"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Skip rest"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Start" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Starten"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Start"
           }
         },
         "es" : {
@@ -1377,22 +1385,22 @@
             "state" : "needs_review",
             "value" : "開始"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Start"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Start workout" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Training starten"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Start workout"
           }
         },
         "es" : {
@@ -1430,22 +1438,22 @@
             "state" : "needs_review",
             "value" : "開始訓練"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Start workout"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Strength session" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Krafteinheit"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Strength session"
           }
         },
         "es" : {
@@ -1483,22 +1491,22 @@
             "state" : "needs_review",
             "value" : "力量訓練"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Strength session"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Talk" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Sprechen"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Talk"
           }
         },
         "es" : {
@@ -1536,22 +1544,22 @@
             "state" : "needs_review",
             "value" : "說話"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Talk"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Talk to log" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Zum Protokollieren sprechen"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Talk to log"
           }
         },
         "es" : {
@@ -1589,22 +1597,22 @@
             "state" : "needs_review",
             "value" : "說話即可記錄"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Talk to log"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Talk to log a set" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Satz per Sprache protokollieren"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Talk to log a set"
           }
         },
         "es" : {
@@ -1642,22 +1650,22 @@
             "state" : "needs_review",
             "value" : "說話記錄一組"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Talk to log a set"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "This Week" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Diese Woche"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "This Week"
           }
         },
         "es" : {
@@ -1695,22 +1703,22 @@
             "state" : "needs_review",
             "value" : "本週"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "This Week"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Today" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Heute"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Today"
           }
         },
         "es" : {
@@ -1748,22 +1756,22 @@
             "state" : "needs_review",
             "value" : "今天"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Today"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Today's plan" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Heutiger Plan"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Today's plan"
           }
         },
         "es" : {
@@ -1801,28 +1809,28 @@
             "state" : "needs_review",
             "value" : "今天的計畫"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Today's plan"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Today's plan: %@. %@." : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Heutiger Plan: %@. %@."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Today's plan: %1$@. %2$@."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Heutiger Plan: %@. %@."
+            "value" : "Today's plan: %@. %@."
           }
         },
         "es" : {
@@ -1860,22 +1868,22 @@
             "state" : "needs_review",
             "value" : "今天的計畫：%@。%@。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Today's plan: %@. %@."
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     },
     "Today's workout" : {
+      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Heutiges Training"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Today's workout"
           }
         },
         "es" : {
@@ -1913,15 +1921,8 @@
             "state" : "needs_review",
             "value" : "今天的訓練"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Today's workout"
-          }
         }
-      },
-      "comment" : "UI text shown in: Cadence Widgets (CadenceWidgets/CadenceWidgets.swift)"
+      }
     }
   },
   "version" : "1.0"

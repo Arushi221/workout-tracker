@@ -5,16 +5,22 @@
       "comment" : "Info.plist CFBundleDisplayName — widget extension name",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron-Widgets"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron Widgets"
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron-Widgets"
+            "value" : "Cladiron Widgets"
           }
         },
         "es" : {
@@ -52,11 +58,17 @@
             "state" : "needs_review",
             "value" : "Cladiron 小工具"
           }
-        },
-        "en-GB" : {
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron Widgets"
+            "state" : "new",
+            "value" : "CadenceWidgets"
           }
         }
       }

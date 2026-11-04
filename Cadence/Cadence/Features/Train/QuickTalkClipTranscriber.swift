@@ -6,6 +6,7 @@ import CadenceFeatures
 /// Watch Quick Talk (decision D-W2): watchOS has no speech recognition API, so the watch records a
 /// short clip and the iPhone transcribes it with the same on-device SpeechAnalyzer Quick Talk uses.
 /// The clip is written to a temporary file only for the analyzer and deleted right after.
+@available(iOS 26.0, *)
 enum QuickTalkClipTranscriber {
     /// Returns the WatchConnectivity reply: the transcript, or an error code the watch shows.
     @MainActor

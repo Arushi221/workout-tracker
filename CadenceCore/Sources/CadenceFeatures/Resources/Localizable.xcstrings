@@ -1,732 +1,220 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "%@ %lld of %lld" : {
+    "“%@ for 5”" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ %2$lld von %3$lld"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ %2$lld of %3$lld"
+            "value" : "„%@ für 5“"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ %2$lld of %3$lld"
+            "value" : "“%@ for 5”"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ %2$lld de %3$lld"
+            "value" : "«%@ por 5»"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ %2$lld sur %3$lld"
+            "value" : "« %@ pour 5 »"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ %2$lld van %3$lld"
+            "value" : "‘%@ voor 5’"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ %2$lld de %3$lld"
+            "value" : "“%@ por 5”"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ 第 %2$lld/%3$lld"
+            "value" : "“%@ 5 次”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%1$@ 第 %2$lld/%3$lld"
+            "value" : "「%@ 5 下」"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
-    "%@ (%@ raw)" : {
+    "“rest two minutes”" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ (%@ roh)"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ (%2$@ raw)"
+            "value" : "„zwei Minuten Pause“"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ (%@ raw)"
+            "value" : "“rest two minutes”"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ (%@ sin ajustar)"
+            "value" : "«descanso dos minutos»"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ (%@ brut)"
+            "value" : "« repos deux minutes »"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ (%@ ruw)"
+            "value" : "‘twee minuten rust’"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ (%@ bruto)"
+            "value" : "“descanso dois minutos”"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@（原始 %@）"
+            "value" : "“休息两分钟”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@（原始 %@）"
+            "value" : "「休息兩分鐘」"
           }
         }
-      },
-      "comment" : "UI text shown in: Export Presenter (CadenceCore/Sources/CadenceFeatures/ExportPresenter.swift)"
+      }
     },
-    "%@ and %@ logged." : {
+    "“Sam, %@ for 8”" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ und %@ protokolliert."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ and %2$@ logged."
+            "value" : "„Sam, %@ für 8“"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ and %@ logged."
+            "value" : "“Sam, %@ for 8”"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ y %@ registrados."
+            "value" : "«Sam, %@ por 8»"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ et %@ enregistrés."
+            "value" : "« Sam, %@ pour 8 »"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ en %@ gelogd."
+            "value" : "‘Sam, %@ voor 8’"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ e %@ registrados."
+            "value" : "“Sam, %@ por 8”"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "已记录%@和%@。"
+            "value" : "“Sam，%@ 8 次”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "已記錄%@和%@。"
+            "value" : "「Sam，%@ 8 下」"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
-    "%@ done" : {
+    "“same again”" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ erledigt"
+            "value" : "„nochmal dasselbe“"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ done"
+            "value" : "“same again”"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ hecho"
+            "value" : "«lo mismo otra vez»"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ terminé"
+            "value" : "« pareil »"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ klaar"
+            "value" : "‘zelfde nog een keer’"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ concluído"
+            "value" : "“de novo”"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ 已完成"
+            "value" : "“同上”"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%@ 已完成"
+            "value" : "「同上」"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
-    },
-    "%@ lifts next" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ ist als Nächstes dran"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ lifts next"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ levanta a continuación"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ soulève ensuite"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ tilt hierna"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ levanta a seguir"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "下一位：%@"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "下一位：%@"
-          }
-        }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
-    },
-    "%@ logged." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ protokolliert."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ logged."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ registrado."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ enregistré."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ gelogd."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ registrado."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "已记录%@。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "已記錄%@。"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
-    },
-    "%@ min credited" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ Min. angerechnet"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min credited"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min contabilizados"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min comptabilisées"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min meegeteld"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min contabilizados"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "计入 %@ 分钟"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "計入 %@ 分鐘"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
-    },
-    "%@ min exercised produces %@ moderate-equivalent guideline credit." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ Min. Training ergeben %@ moderat-äquivalente Anrechnung laut Richtlinie."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ min exercised produces %2$@ moderate-equivalent guideline credit."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min exercised produces %@ moderate-equivalent guideline credit."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min de ejercicio equivalen a %@ de crédito de la pauta en minutos moderados."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min d’exercice donnent %@ de crédit équivalent modéré selon les recommandations."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min bewegen levert %@ matig-equivalente richtlijntelling op."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min de exercício geram %@ de crédito da diretriz em equivalente moderado."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "运动 %@ 分钟，计为指南中的 %@ 中等强度当量。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "運動 %@ 分鐘，計為指引中的 %@ 中等強度當量。"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
-    },
-    "%@ min logged this week." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Diese Woche %@ Min. protokolliert."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min logged this week."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min registrados esta semana."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min enregistrées cette semaine."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min gelogd deze week."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ min registrados nesta semana."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "本周已记录 %@ 分钟。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "本週已記錄 %@ 分鐘。"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
-    },
-    "%@ rep-max" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@-Wiederholungsmaximum"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ rep-max"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Repeticiones máximas de %@"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Répétitions max %@"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@-herhalingsmaximum"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Repetições máximas de %@"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ 最大次数"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ 最大次數"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Assessment Display (CadenceCore/Sources/CadenceFeatures/AssessmentDisplay.swift)"
-    },
-    "%@ sets" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ Sätze"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ sets"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ series"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ séries"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ sets"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ séries"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ 组"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%@ 組"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
-    },
-    "%@ · %lld logged" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · %2$lld erfasst"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ · %2$lld logged"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · %2$lld logged"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · %2$lld registradas"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · %2$lld enregistrées"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · %2$lld vastgelegd"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · %2$lld registradas"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · 已记录 %2$lld"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · 已記錄 %2$lld"
-          }
-        }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
-    },
-    "%@ · then %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · dann %2$@"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ · then %2$@"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · then %2$@"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · luego %2$@"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · puis %2$@"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · daarna %2$@"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · depois %2$@"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · 然后 %2$@"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%1$@ · 然後 %2$@"
-          }
-        }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "%@ – %@ · %lld days" : {
+      "comment" : "UI text shown in: Export Presenter (CadenceCore/Sources/CadenceFeatures/ExportPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -782,10 +270,735 @@
             "value" : "%@ – %@ · %lld 天"
           }
         }
-      },
-      "comment" : "UI text shown in: Export Presenter (CadenceCore/Sources/CadenceFeatures/ExportPresenter.swift)"
+      }
+    },
+    "%@ · %lld logged" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · %2$lld erfasst"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$lld logged"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · %2$lld logged"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · %2$lld registradas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · %2$lld enregistrées"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · %2$lld vastgelegd"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · %2$lld registradas"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · 已记录 %2$lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · 已記錄 %2$lld"
+          }
+        }
+      }
+    },
+    "%@ · then %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · dann %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · then %2$@"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · then %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · luego %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · puis %2$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · daarna %2$@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · depois %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · 然后 %2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ · 然後 %2$@"
+          }
+        }
+      }
+    },
+    "%@ (%@ raw)" : {
+      "comment" : "UI text shown in: Export Presenter (CadenceCore/Sources/CadenceFeatures/ExportPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ (%@ roh)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$@ raw)"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ (%@ raw)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ (%@ sin ajustar)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ (%@ brut)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ (%@ ruw)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ (%@ bruto)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@（原始 %@）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@（原始 %@）"
+          }
+        }
+      }
+    },
+    "%@ %lld of %lld" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ %2$lld von %3$lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$lld of %3$lld"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ %2$lld of %3$lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ %2$lld de %3$lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ %2$lld sur %3$lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ %2$lld van %3$lld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ %2$lld de %3$lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ 第 %2$lld/%3$lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%1$@ 第 %2$lld/%3$lld"
+          }
+        }
+      }
+    },
+    "%@ and %@ logged." : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ und %@ protokolliert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ and %2$@ logged."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ and %@ logged."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ y %@ registrados."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ et %@ enregistrés."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ en %@ gelogd."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ e %@ registrados."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已记录%@和%@。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已記錄%@和%@。"
+          }
+        }
+      }
+    },
+    "%@ done" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ erledigt"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ done"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ hecho"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ terminé"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ klaar"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ concluído"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 已完成"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 已完成"
+          }
+        }
+      }
+    },
+    "%@ lifts next" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ ist als Nächstes dran"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ lifts next"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ levanta a continuación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ soulève ensuite"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ tilt hierna"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ levanta a seguir"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "下一位：%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "下一位：%@"
+          }
+        }
+      }
+    },
+    "%@ logged." : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ protokolliert."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ logged."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ registrado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ enregistré."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ gelogd."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ registrado."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已记录%@。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已記錄%@。"
+          }
+        }
+      }
+    },
+    "%@ min credited" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ Min. angerechnet"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min credited"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min contabilizados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min comptabilisées"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min meegeteld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min contabilizados"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "计入 %@ 分钟"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "計入 %@ 分鐘"
+          }
+        }
+      }
+    },
+    "%@ min exercised produces %@ moderate-equivalent guideline credit." : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ Min. Training ergeben %@ moderat-äquivalente Anrechnung laut Richtlinie."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ min exercised produces %2$@ moderate-equivalent guideline credit."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min exercised produces %@ moderate-equivalent guideline credit."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min de ejercicio equivalen a %@ de crédito de la pauta en minutos moderados."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min d’exercice donnent %@ de crédit équivalent modéré selon les recommandations."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min bewegen levert %@ matig-equivalente richtlijntelling op."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min de exercício geram %@ de crédito da diretriz em equivalente moderado."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "运动 %@ 分钟，计为指南中的 %@ 中等强度当量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "運動 %@ 分鐘，計為指引中的 %@ 中等強度當量。"
+          }
+        }
+      }
+    },
+    "%@ min logged this week." : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diese Woche %@ Min. protokolliert."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min logged this week."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min registrados esta semana."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min enregistrées cette semaine."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min gelogd deze week."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ min registrados nesta semana."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "本周已记录 %@ 分钟。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "本週已記錄 %@ 分鐘。"
+          }
+        }
+      }
+    },
+    "%@ rep-max" : {
+      "comment" : "UI text shown in: Assessment Display (CadenceCore/Sources/CadenceFeatures/AssessmentDisplay.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@-Wiederholungsmaximum"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ rep-max"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Repeticiones máximas de %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Répétitions max %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@-herhalingsmaximum"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Repetições máximas de %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 最大次数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 最大次數"
+          }
+        }
+      }
+    },
+    "%@ sets" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ Sätze"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ sets"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ series"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ séries"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ sets"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ séries"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 组"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 組"
+          }
+        }
+      }
     },
     "%@, %@, and %@ logged." : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -841,10 +1054,10 @@
             "value" : "已記錄%@、%@和%@。"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "%@: %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -900,10 +1113,10 @@
             "value" : "%1$@：%2$@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "%@: %lld sessions" : {
+      "comment" : "UI text shown in: Consistency Heatmap Presenter (CadenceCore/Sources/CadenceFeatures/ConsistencyHeatmapPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -1055,10 +1268,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Consistency Heatmap Presenter (CadenceCore/Sources/CadenceFeatures/ConsistencyHeatmapPresenter.swift)"
+      }
     },
     "%lld already current" : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -1210,10 +1423,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "%lld bpm" : {
+      "comment" : "UI text shown in: Format (CadenceCore/Sources/CadenceFeatures/Format.swift); Today Activity Presenter (CadenceCore/Sources/CadenceFeatures/TodayActivityPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1263,10 +1476,10 @@
             "value" : "%lld 下/分"
           }
         }
-      },
-      "comment" : "UI text shown in: Format (CadenceCore/Sources/CadenceFeatures/Format.swift); Today Activity Presenter (CadenceCore/Sources/CadenceFeatures/TodayActivityPresenter.swift)"
+      }
     },
     "%lld days trained" : {
+      "comment" : "UI text shown in: Consistency Heatmap Presenter (CadenceCore/Sources/CadenceFeatures/ConsistencyHeatmapPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -1418,10 +1631,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Consistency Heatmap Presenter (CadenceCore/Sources/CadenceFeatures/ConsistencyHeatmapPresenter.swift)"
+      }
     },
     "%lld items waiting to be saved." : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -1573,10 +1786,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "%lld lifts tracked. " : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -1728,10 +1941,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "%lld min" : {
+      "comment" : "UI text shown in: Cardio Minutes Display (CadenceCore/Sources/CadenceFeatures/CardioMinutesDisplay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1781,10 +1994,10 @@
             "value" : "%lld 分鐘"
           }
         }
-      },
-      "comment" : "UI text shown in: Cardio Minutes Display (CadenceCore/Sources/CadenceFeatures/CardioMinutesDisplay.swift)"
+      }
     },
     "%lld min could not be intensity-classified" : {
+      "comment" : "UI text shown in: Cardio Minutes Display (CadenceCore/Sources/CadenceFeatures/CardioMinutesDisplay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1834,10 +2047,10 @@
             "value" : "%lld 分鐘無法歸類強度"
           }
         }
-      },
-      "comment" : "UI text shown in: Cardio Minutes Display (CadenceCore/Sources/CadenceFeatures/CardioMinutesDisplay.swift)"
+      }
     },
     "%lld newer Health versions applied" : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -1989,10 +2202,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "%lld of %lld %@ movements" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2048,10 +2261,11 @@
             "value" : "%lld/%lld 個%@動作"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "%lld of %lld days" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2107,10 +2321,10 @@
             "value" : "%lld/%lld 天"
           }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
+      }
     },
     "%lld of %lld min" : {
+      "comment" : "UI text shown in: Cardio Minutes Display (CadenceCore/Sources/CadenceFeatures/CardioMinutesDisplay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2166,10 +2380,10 @@
             "value" : "%lld/%lld 分鐘"
           }
         }
-      },
-      "comment" : "UI text shown in: Cardio Minutes Display (CadenceCore/Sources/CadenceFeatures/CardioMinutesDisplay.swift)"
+      }
     },
     "%lld of %lld min credit" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2225,10 +2439,10 @@
             "value" : "已計入 %lld/%lld 分鐘"
           }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
+      }
     },
     "%lld of %lld sets" : {
+      "comment" : "UI text shown in: Session Progress Presenter (CadenceCore/Sources/CadenceFeatures/SessionProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2284,10 +2498,10 @@
             "value" : "%lld/%lld 組"
           }
         }
-      },
-      "comment" : "UI text shown in: Session Progress Presenter (CadenceCore/Sources/CadenceFeatures/SessionProgressPresenter.swift)"
+      }
     },
     "%lld reps" : {
+      "comment" : "UI text shown in: Assessment Display (CadenceCore/Sources/CadenceFeatures/AssessmentDisplay.swift); Format (CadenceCore/Sources/CadenceFeatures/Format.swift); Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -2439,10 +2653,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Assessment Display (CadenceCore/Sources/CadenceFeatures/AssessmentDisplay.swift); Format (CadenceCore/Sources/CadenceFeatures/Format.swift); Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift)"
+      }
     },
     "%lld sets" : {
+      "comment" : "UI text shown in: Today Activity Presenter (CadenceCore/Sources/CadenceFeatures/TodayActivityPresenter.swift); Workouts Today Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutsTodayPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -2594,10 +2808,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Today Activity Presenter (CadenceCore/Sources/CadenceFeatures/TodayActivityPresenter.swift); Workouts Today Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutsTodayPresenter.swift)"
+      }
     },
     "%lld sets · %@ reps · ~%lld RIR" : {
+      "comment" : "UI text shown in: Planned Day Preview Presenter (CadenceCore/Sources/CadenceFeatures/PlannedDayPreviewPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2653,10 +2867,10 @@
             "value" : "%lld 組 · %@ 下 · 約 %lld RIR"
           }
         }
-      },
-      "comment" : "UI text shown in: Planned Day Preview Presenter (CadenceCore/Sources/CadenceFeatures/PlannedDayPreviewPresenter.swift)"
+      }
     },
     "%lld working sets" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -2808,10 +3022,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "%lld-day streak" : {
+      "comment" : "UI text shown in: Consistency Heatmap Presenter (CadenceCore/Sources/CadenceFeatures/ConsistencyHeatmapPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -2963,69 +3177,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Consistency Heatmap Presenter (CadenceCore/Sources/CadenceFeatures/ConsistencyHeatmapPresenter.swift)"
-    },
-    "%lld/%lld sets" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld Sätze"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld/%2$lld sets"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld sets"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld series"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld séries"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld sets"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld séries"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld 组"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld/%lld 組"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift)"
+      }
     },
     "%lld–%lld reps" : {
+      "comment" : "UI text shown in: Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3081,10 +3236,10 @@
             "value" : "%lld–%lld 下"
           }
         }
-      },
-      "comment" : "UI text shown in: Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift)"
+      }
     },
     "%lld–%lld reps · ≤%lld RIR" : {
+      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3140,10 +3295,122 @@
             "value" : "%lld–%lld 下 · ≤%lld RIR"
           }
         }
-      },
-      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)"
+      }
+    },
+    "%lld/%lld sets" : {
+      "comment" : "UI text shown in: Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld Sätze"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld sets"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld sets"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld series"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld séries"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld sets"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld séries"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld 组"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld/%lld 組"
+          }
+        }
+      }
+    },
+    "× %lld" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "× %lld"
+          }
+        }
+      }
     },
     "About suggested workouts" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3193,10 +3460,10 @@
             "value" : "關於推薦訓練"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Above 12-set maximum" : {
+      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3246,10 +3513,10 @@
             "value" : "超過 12 組上限"
           }
         }
-      },
-      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)"
+      }
     },
     "Add %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3299,10 +3566,10 @@
             "value" : "新增%@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Add partner %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3352,10 +3619,10 @@
             "value" : "新增搭檔 %@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Adds each winning movement with your set preference, then trims from the end to a %lld-set safety cap and recomputes what is still uncovered." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3405,10 +3672,10 @@
             "value" : "依你的組數偏好加入每個選中的動作，再從末尾刪減到 %lld 組的安全上限，並重新計算仍未涵蓋的部分。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "After iPhone sync" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3458,10 +3725,10 @@
             "value" : "iPhone 同步後"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Age not set" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3511,10 +3778,10 @@
             "value" : "未設定年齡"
           }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
+      }
     },
     "Alarm (breaks through Silent)" : {
+      "comment" : "UI text shown in: Rest Alert Mode (CadenceCore/Sources/CadenceFeatures/RestAlertMode.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3564,10 +3831,10 @@
             "value" : "鬧鐘（靜音模式下也會響）"
           }
         }
-      },
-      "comment" : "UI text shown in: Rest Alert Mode (CadenceCore/Sources/CadenceFeatures/RestAlertMode.swift)"
+      }
     },
     "All current gaps covered" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3617,10 +3884,10 @@
             "value" : "目前所有缺口均已涵蓋"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Apple Health backup is current" : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3670,10 +3937,10 @@
             "value" : "Apple 健康備份已是最新"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Apple Health backup is off" : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3723,10 +3990,10 @@
             "value" : "Apple 健康備份已關閉"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Apple Health backup is waiting" : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3776,10 +4043,10 @@
             "value" : "Apple 健康備份正在等待"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Apple Health needs attention" : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3829,10 +4096,10 @@
             "value" : "Apple 健康需要處理"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Apple Watch HR is not connected" : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3882,10 +4149,10 @@
             "value" : "Apple Watch 心率未連線"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
+      }
     },
     "Average %@/5 · optional coaching context" : {
+      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3935,10 +4202,10 @@
             "value" : "平均 %@/5 · 選填的教練參考"
           }
         }
-      },
-      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)"
+      }
     },
     "Average %lld, range %lld to %lld beats per minute, %lld samples" : {
+      "comment" : "UI text shown in: Workout Summary Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutSummaryPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3994,10 +4261,10 @@
             "value" : "平均 %lld，範圍每分鐘 %lld 到 %lld 下，%lld 個樣本"
           }
         }
-      },
-      "comment" : "UI text shown in: Workout Summary Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutSummaryPresenter.swift)"
+      }
     },
     "Based on the planned sets and standard working-set and rest defaults." : {
+      "comment" : "UI text shown in: Workout Duration Estimator (CadenceCore/Sources/CadenceFeatures/WorkoutDurationEstimator.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4047,10 +4314,10 @@
             "value" : "依據計畫組數以及正式組和休息的預設值。"
           }
         }
-      },
-      "comment" : "UI text shown in: Workout Duration Estimator (CadenceCore/Sources/CadenceFeatures/WorkoutDurationEstimator.swift)"
+      }
     },
     "Based on the planned sets, rest times, and your pace over the last %lld sessions." : {
+      "comment" : "UI text shown in: Workout Duration Estimator (CadenceCore/Sources/CadenceFeatures/WorkoutDurationEstimator.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -4202,10 +4469,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Workout Duration Estimator (CadenceCore/Sources/CadenceFeatures/WorkoutDurationEstimator.swift)"
+      }
     },
     "Baseline in the books" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4255,10 +4522,10 @@
             "value" : "基準已記錄"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Below 4-set minimum" : {
+      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4308,10 +4575,10 @@
             "value" : "低於 4 組下限"
           }
         }
-      },
-      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)"
+      }
     },
     "Below moderate" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4361,10 +4628,10 @@
             "value" : "低於中等強度"
           }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
+      }
     },
     "Building toward productive volume" : {
+      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4414,10 +4681,10 @@
             "value" : "正朝有效訓練量邁進"
           }
         }
-      },
-      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)"
+      }
     },
     "Calculates a %lld-set weekly gap for every muscle group you track." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4467,10 +4734,10 @@
             "value" : "為你追蹤的每個肌群計算每週 %lld 組的缺口。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Calculating suggested workouts…" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4520,10 +4787,10 @@
             "value" : "正在計算推薦訓練…"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Cardio" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4573,10 +4840,10 @@
             "value" : "有氧"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Cardio banked for today" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4626,15 +4893,21 @@
             "value" : "今日有氧已完成"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Checking today's plan…" : {
+      "comment" : "UI text shown in: Today Hero Presenter (CadenceCore/Sources/CadenceFeatures/TodayHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Heutiger Plan wird geprüft …"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Checking today's plan…"
           }
         },
         "es" : {
@@ -4672,17 +4945,11 @@
             "state" : "needs_review",
             "value" : "正在檢查今天的計畫…"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Checking today's plan…"
-          }
         }
-      },
-      "comment" : "UI text shown in: Today Hero Presenter (CadenceCore/Sources/CadenceFeatures/TodayHeroPresenter.swift)"
+      }
     },
     "Cladiron doesn’t have Health access on your Apple Watch yet. Open Cladiron on the Watch once to allow it, then tap Check for Live HR." : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4732,10 +4999,10 @@
             "value" : "Cladiron 尚未取得 Apple Watch 上的健康權限。請在手錶上開啟一次 Cladiron 以授權，然後點一下「檢查即時心率」。"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
+      }
     },
     "Cladiron will keep retrying the queued backup. You can retry now." : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4785,10 +5052,10 @@
             "value" : "Cladiron 會持續重試排隊中的備份。你也可以現在重試。"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Cladiron-authored workout summaries and supported fitness tests are backed up when Health accepts them." : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4838,10 +5105,10 @@
             "value" : "當「健康」接受後，Cladiron 產生的訓練摘要和支援的體能測驗即會備份。"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Closer to failure than %@ usually needs." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4891,10 +5158,10 @@
             "value" : "比 %@ 通常所需的更接近力竭。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Coach: %lld%% of your estimated max" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4944,10 +5211,10 @@
             "value" : "教練：你估算最大值的 %lld%%"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Coach: aim for RPE %lld" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4997,10 +5264,10 @@
             "value" : "教練：目標 RPE %lld"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Completed workouts remain in Cladiron and its configured private backup." : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5050,10 +5317,10 @@
             "value" : "已完成的訓練會保留在 Cladiron 及其設定的私人備份中。"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Considers the largest remaining gap first; equal gaps use a fixed largest-to-smallest muscle order." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5103,10 +5370,10 @@
             "value" : "優先考慮剩餘最大的缺口；缺口相同時，依固定的由大到小肌群順序處理。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Consistency" : {
+      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5156,10 +5423,10 @@
             "value" : "規律性"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)"
+      }
     },
     "Continue" : {
+      "comment" : "UI text shown in: Onboarding Model (CadenceCore/Sources/CadenceFeatures/OnboardingModel.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5209,10 +5476,10 @@
             "value" : "繼續"
           }
         }
-      },
-      "comment" : "UI text shown in: Onboarding Model (CadenceCore/Sources/CadenceFeatures/OnboardingModel.swift)"
+      }
     },
     "Continue with Apple Watch" : {
+      "comment" : "UI text shown in: Pre Workout HRPresenter (CadenceCore/Sources/CadenceFeatures/PreWorkoutHRPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5262,10 +5529,10 @@
             "value" : "使用 Apple Watch 繼續"
           }
         }
-      },
-      "comment" : "UI text shown in: Pre Workout HRPresenter (CadenceCore/Sources/CadenceFeatures/PreWorkoutHRPresenter.swift)"
+      }
     },
     "Continue with Bluetooth" : {
+      "comment" : "UI text shown in: Pre Workout HRPresenter (CadenceCore/Sources/CadenceFeatures/PreWorkoutHRPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5315,10 +5582,10 @@
             "value" : "使用藍牙繼續"
           }
         }
-      },
-      "comment" : "UI text shown in: Pre Workout HRPresenter (CadenceCore/Sources/CadenceFeatures/PreWorkoutHRPresenter.swift)"
+      }
     },
     "Continue without heart rate" : {
+      "comment" : "UI text shown in: Pre Workout HRPresenter (CadenceCore/Sources/CadenceFeatures/PreWorkoutHRPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5368,10 +5635,10 @@
             "value" : "不使用心率繼續"
           }
         }
-      },
-      "comment" : "UI text shown in: Pre Workout HRPresenter (CadenceCore/Sources/CadenceFeatures/PreWorkoutHRPresenter.swift)"
+      }
     },
     "Delete set" : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5421,10 +5688,10 @@
             "value" : "刪除該組"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Didn't recognise “%@”" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5474,10 +5741,10 @@
             "value" : "未辨識「%@」"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Done" : {
+      "comment" : "UI text shown in: Interval Runner (CadenceCore/Sources/CadenceFeatures/IntervalRunner.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5527,10 +5794,10 @@
             "value" : "完成"
           }
         }
-      },
-      "comment" : "UI text shown in: Interval Runner (CadenceCore/Sources/CadenceFeatures/IntervalRunner.swift)"
+      }
     },
     "Done: " : {
+      "comment" : "UI text shown in: Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift); Workout Summary Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutSummaryPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5580,10 +5847,10 @@
             "value" : "已完成："
           }
         }
-      },
-      "comment" : "UI text shown in: Session Render Model (CadenceCore/Sources/CadenceFeatures/SessionRenderModel.swift); Workout Summary Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutSummaryPresenter.swift)"
+      }
     },
     "Double tap to edit this planned set." : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5633,10 +5900,10 @@
             "value" : "點兩下以編輯此計畫組。"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Double tap to edit, or use Log set to save the next set." : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5686,10 +5953,10 @@
             "value" : "點兩下以編輯，或使用「記錄組」儲存下一組。"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Edit set" : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5739,10 +6006,10 @@
             "value" : "編輯該組"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Effort" : {
+      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5792,10 +6059,10 @@
             "value" : "強度"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)"
+      }
     },
     "Endurance" : {
+      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5845,10 +6112,10 @@
             "value" : "耐力"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)"
+      }
     },
     "Estimated from %@ previous %@ sets · rounded to a loadable increment" : {
+      "comment" : "UI text shown in: Weight Suggestion Copy (CadenceCore/Sources/CadenceFeatures/WeightSuggestionCopy.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5904,10 +6171,10 @@
             "value" : "依此前 %@ 個%@組估算 · 已取整為可裝載的增量"
           }
         }
-      },
-      "comment" : "UI text shown in: Weight Suggestion Copy (CadenceCore/Sources/CadenceFeatures/WeightSuggestionCopy.swift)"
+      }
     },
     "Estimated one-rep max" : {
+      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -5957,10 +6224,10 @@
             "value" : "估算單次最大重量"
           }
         }
-      },
-      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)"
+      }
     },
     "Every plan closes the same weekly gaps — pick the kind of training you want to do it with. You can review and edit any plan before starting." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6010,10 +6277,10 @@
             "value" : "每個計畫都會補足相同的每週缺口——選擇你想用的訓練方式即可。開始前你可以檢視並編輯任何計畫。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Every style aims at the same %lld weekly sets for each muscle group you track, under one %lld-set safety cap, so a capped plan can still show remaining gaps. What changes between them is the movements. A style that cannot reach a muscle borrows a general strength movement rather than leaving the gap open, and the chooser says how many movements came from the style itself." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6069,10 +6336,10 @@
             "value" : "每種風格都以你追蹤的每個肌群每週 %lld 組為目標，並受 %lld 組安全上限約束，因此受限的計畫仍可能顯示缺口。不同之處只在於動作。若某風格無法涵蓋某個肌群，會借用一個通用力量動作而不是留下缺口，選擇介面會說明有多少動作來自該風格本身。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Falls back to general strength movements only where a non-Bodyweight style has nothing left that closes a gap. Bodyweight remains bodyweight-only, so choosing it never introduces an external-load movement." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6122,10 +6389,10 @@
             "value" : "只有當非自體重量風格中已沒有能補足缺口的動作時，才會改用通用力量動作。自體重量風格始終只用自體重量，因此選擇它絕不會加入外部負重動作。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Fills the plan from your chosen training style first — Olympic lifts for Olympic, carries and loads for Strongman, and so on — scoring each unused movement only for muscles still in deficit, with credit capped at the remaining gap. Equal scores for one muscle prefer compound movements, then movements involving more muscles." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6175,10 +6442,10 @@
             "value" : "先從你選擇的訓練風格中填入計畫——奧舉風格用奧舉動作，大力士風格用搬運和負重動作，依此類推——只為仍有缺口的肌群為每個未使用的動作評分，額度以剩餘缺口為上限。同一肌群分數相同時，優先複合動作，其次是涉及更多肌群的動作。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Finish workout" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6228,10 +6495,10 @@
             "value" : "結束訓練"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Full" : {
+      "comment" : "UI text shown in: Cue Policy (CadenceCore/Sources/CadenceFeatures/CuePolicy.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6281,10 +6548,10 @@
             "value" : "完整"
           }
         }
-      },
-      "comment" : "UI text shown in: Cue Policy (CadenceCore/Sources/CadenceFeatures/CuePolicy.swift)"
+      }
     },
     "Heart rate isn’t available from your Apple Watch right now. Tap Check for Live HR to try again." : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6334,10 +6601,10 @@
             "value" : "目前無法從 Apple Watch 取得心率。點一下「檢查即時心率」再試一次。"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
+      }
     },
     "Heavier than an endurance goal usually calls for." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6387,10 +6654,10 @@
             "value" : "比耐力目標通常所需的更重。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Heaviest weight" : {
+      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6440,10 +6707,10 @@
             "value" : "最大重量"
           }
         }
-      },
-      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)"
+      }
     },
     "In app only" : {
+      "comment" : "UI text shown in: Rest Alert Mode (CadenceCore/Sources/CadenceFeatures/RestAlertMode.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6493,10 +6760,10 @@
             "value" : "僅限 App 內"
           }
         }
-      },
-      "comment" : "UI text shown in: Rest Alert Mode (CadenceCore/Sources/CadenceFeatures/RestAlertMode.swift)"
+      }
     },
     "In the effective range for %@." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6546,10 +6813,10 @@
             "value" : "落在%@的有效範圍內。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Intensity" : {
+      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6599,10 +6866,10 @@
             "value" : "強度"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)"
+      }
     },
     "Last set %@%@" : {
+      "comment" : "UI text shown in: Set History Text (CadenceCore/Sources/CadenceFeatures/SetHistoryText.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6658,10 +6925,10 @@
             "value" : "上一組 %@%@"
           }
         }
-      },
-      "comment" : "UI text shown in: Set History Text (CadenceCore/Sources/CadenceFeatures/SetHistoryText.swift)"
+      }
     },
     "Last time %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6711,10 +6978,10 @@
             "value" : "上次 %@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Last time %@ · RPE %lld" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6770,10 +7037,10 @@
             "value" : "上次 %1$@ · RPE %2$lld"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Lighter than a strength goal usually calls for." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6823,10 +7090,10 @@
             "value" : "比力量目標通常所需的更輕。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Limited history: %lld workouts" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -6978,10 +7245,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Log %@ × %lld" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7037,10 +7304,13 @@
             "value" : "記錄 %1$@ × %2$lld"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
+    },
+    "Log %lld reps" : {
+
     },
     "Log a workout and your coach will start suggesting." : {
+      "comment" : "UI text shown in: Today Hero Presenter (CadenceCore/Sources/CadenceFeatures/TodayHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7090,10 +7360,10 @@
             "value" : "記錄一次訓練後，教練就會開始提供建議。"
           }
         }
-      },
-      "comment" : "UI text shown in: Today Hero Presenter (CadenceCore/Sources/CadenceFeatures/TodayHeroPresenter.swift)"
+      }
     },
     "Log set" : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7143,10 +7413,10 @@
             "value" : "記錄一組"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Max" : {
+      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7196,10 +7466,10 @@
             "value" : "最大"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)"
+      }
     },
     "Me" : {
+      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7249,10 +7519,10 @@
             "value" : "我"
           }
         }
-      },
-      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)"
+      }
     },
     "Moderate" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7302,10 +7572,10 @@
             "value" : "中等"
           }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
+      }
     },
     "Mostly moderate-load work — matched to the hypertrophy rep range." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7355,10 +7625,10 @@
             "value" : "以中等負荷為主——符合增肌的次數範圍。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Need at least %lld completed workouts; you have %lld." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7414,10 +7684,10 @@
             "value" : "至少需要 %lld 次已完成的訓練；你目前有 %lld 次。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "New personal record" : {
+      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7467,10 +7737,10 @@
             "value" : "新的個人紀錄"
           }
         }
-      },
-      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)"
+      }
     },
     "Next %@ %@%@ %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7526,10 +7796,10 @@
             "value" : "下一組 %1$@ %2$@%3$@ %4$@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "No available %@ exercises cover this week's gaps." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7579,10 +7849,10 @@
             "value" : "沒有可用的%@動作能彌補本週缺口。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "No completed strength history was available. This suggestion uses your onboarding preferences and the exercise catalog; future suggestions can become more specific after you log a workout." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7632,10 +7902,10 @@
             "value" : "尚無已完成的力量訓練紀錄。此建議依據你的初始設定偏好和動作庫；記錄訓練後，後續建議會更有針對性。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "No exercises from your history cover this week's gaps." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7685,10 +7955,10 @@
             "value" : "你的歷史動作中沒有能彌補本週缺口的。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "No heart rate arrived from your Apple Watch. Check that it’s on your wrist and unlocked, then tap Check for Live HR." : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7738,10 +8008,10 @@
             "value" : "未收到來自 Apple Watch 的心率。請確認它戴在手腕上且已解鎖，然後點一下「檢查即時心率」。"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
+      }
     },
     "No heart rate samples" : {
+      "comment" : "UI text shown in: Workout Summary Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutSummaryPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7791,10 +8061,10 @@
             "value" : "無心率樣本"
           }
         }
-      },
-      "comment" : "UI text shown in: Workout Summary Presenter (CadenceCore/Sources/CadenceFeatures/WorkoutSummaryPresenter.swift)"
+      }
     },
     "No lifts tracked yet." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7844,10 +8114,10 @@
             "value" : "尚未追蹤任何動作。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "No new Cladiron workouts were found. Health read access may be off or Health may still be syncing." : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7897,10 +8167,10 @@
             "value" : "找不到新的 Cladiron 訓練。可能是健康讀取權限已關閉，或健康仍在同步中。"
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "No rows changed; %lld existing rows were already current." : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -8052,10 +8322,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "No sets logged yet" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8105,10 +8375,10 @@
             "value" : "尚未記錄訓練組"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Not saved" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8158,10 +8428,10 @@
             "value" : "未儲存"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Off" : {
+      "comment" : "UI text shown in: Cue Policy (CadenceCore/Sources/CadenceFeatures/CuePolicy.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8211,10 +8481,10 @@
             "value" : "關"
           }
         }
-      },
-      "comment" : "UI text shown in: Cue Policy (CadenceCore/Sources/CadenceFeatures/CuePolicy.swift)"
+      }
     },
     "Pain or illness noted" : {
+      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8264,10 +8534,10 @@
             "value" : "已記錄疼痛或疾病"
           }
         }
-      },
-      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)"
+      }
     },
     "Partner" : {
+      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8317,10 +8587,10 @@
             "value" : "夥伴"
           }
         }
-      },
-      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)"
+      }
     },
     "Pause workout" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8370,10 +8640,10 @@
             "value" : "暫停訓練"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Personal Records" : {
+      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8423,10 +8693,10 @@
             "value" : "個人紀錄"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)"
+      }
     },
     "Planned · %@ %@ vs last time" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8482,10 +8752,10 @@
             "value" : "計畫 · 較上次 %1$@ %2$@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Planned: %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8535,10 +8805,10 @@
             "value" : "計畫：%@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Plenty of higher-rep work — aligned with an endurance goal." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8588,10 +8858,10 @@
             "value" : "高次數訓練充足——符合耐力目標。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Previous: %@" : {
+      "comment" : "UI text shown in: Watch Strength Flow Model (CadenceCore/Sources/CadenceFeatures/WatchStrengthFlowModel.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8641,10 +8911,10 @@
             "value" : "上次：%@"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch Strength Flow Model (CadenceCore/Sources/CadenceFeatures/WatchStrengthFlowModel.swift)"
+      }
     },
     "Produces a deterministic suggestion to review and edit, not a medical prescription or guarantee of an individualized optimum." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8694,10 +8964,10 @@
             "value" : "產生一個確定性的建議供你查看和編輯，不是醫療處方，也不保證達到個人最佳。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Productive 8–12-set range" : {
+      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8747,15 +9017,21 @@
             "value" : "有效區間 8–12 組"
           }
         }
-      },
-      "comment" : "UI text shown in: Weekly Set Progress (CadenceCore/Sources/CadenceFeatures/WeeklySetProgress.swift)"
+      }
     },
     "Public-health guidance counts 150 moderate-equivalent minutes a week. Vigorous work counts double. With resting HR, moderate is 40–<60% heart-rate reserve; without it, the app uses 50–<70% of maximum HR so its Z2 time receives moderate credit. Below-moderate activity receives no guideline credit." : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Gesundheitsempfehlungen sehen 150 moderat-äquivalente Minuten pro Woche vor. Intensive Arbeit zählt doppelt. Mit Ruhepuls liegt moderat bei 40–<60 % der Herzfrequenzreserve; ohne ihn nutzt die App 50–<70 % der maximalen HF, sodass Z2-Zeit als moderat zählt. Aktivität unter moderat wird nicht angerechnet."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Public-health guidance counts 150 moderate-equivalent minutes a week. Vigorous work counts double. With resting HR, moderate is 40–<60% heart-rate reserve; without it, the app uses 50–<70% of maximum HR so its Z2 time receives moderate credit. Below-moderate activity receives no guideline credit."
           }
         },
         "es" : {
@@ -8793,17 +9069,11 @@
             "state" : "needs_review",
             "value" : "公共衛生指引建議每週 150 分鐘中等強度當量活動。高強度運動計雙倍。有靜止心率時，中等強度為儲備心率的 40%–<60%；沒有時，App 使用最大心率的 50%–<70%，使 Z2 時間計為中等強度。低於中等強度的活動不計入。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Public-health guidance counts 150 moderate-equivalent minutes a week. Vigorous work counts double. With resting HR, moderate is 40–<60% heart-rate reserve; without it, the app uses 50–<70% of maximum HR so its Z2 time receives moderate credit. Below-moderate activity receives no guideline credit."
-          }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
+      }
     },
     "Quiet (haptics only)" : {
+      "comment" : "UI text shown in: Cue Policy (CadenceCore/Sources/CadenceFeatures/CuePolicy.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8853,63 +9123,10 @@
             "value" : "靜音（僅觸覺回饋）"
           }
         }
-      },
-      "comment" : "UI text shown in: Cue Policy (CadenceCore/Sources/CadenceFeatures/CuePolicy.swift)"
-    },
-    "RPE %lld" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "RPE %lld"
-          }
-        }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Recovery" : {
+      "comment" : "UI text shown in: Passive Readiness Presenter (CadenceCore/Sources/CadenceFeatures/PassiveReadinessPresenter.swift); Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8959,10 +9176,10 @@
             "value" : "恢復"
           }
         }
-      },
-      "comment" : "UI text shown in: Passive Readiness Presenter (CadenceCore/Sources/CadenceFeatures/PassiveReadinessPresenter.swift); Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)"
+      }
     },
     "Recovery day" : {
+      "comment" : "UI text shown in: Today Hero Presenter (CadenceCore/Sources/CadenceFeatures/TodayHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9012,10 +9229,10 @@
             "value" : "恢復日"
           }
         }
-      },
-      "comment" : "UI text shown in: Today Hero Presenter (CadenceCore/Sources/CadenceFeatures/TodayHeroPresenter.swift)"
+      }
     },
     "Recovery done for today" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9065,10 +9282,10 @@
             "value" : "今天的恢復已完成"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Recovery looks a bit below your baseline" : {
+      "comment" : "UI text shown in: Passive Readiness Presenter (CadenceCore/Sources/CadenceFeatures/PassiveReadinessPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9118,10 +9335,10 @@
             "value" : "恢復略低於你的基準"
           }
         }
-      },
-      "comment" : "UI text shown in: Passive Readiness Presenter (CadenceCore/Sources/CadenceFeatures/PassiveReadinessPresenter.swift)"
+      }
     },
     "Recovery looks good" : {
+      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9171,10 +9388,10 @@
             "value" : "恢復良好"
           }
         }
-      },
-      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)"
+      }
     },
     "Recovery looks mixed" : {
+      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9224,10 +9441,10 @@
             "value" : "恢復情況不一"
           }
         }
-      },
-      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)"
+      }
     },
     "Recovery looks well below your baseline" : {
+      "comment" : "UI text shown in: Passive Readiness Presenter (CadenceCore/Sources/CadenceFeatures/PassiveReadinessPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9277,10 +9494,10 @@
             "value" : "恢復明顯低於你的基準"
           }
         }
-      },
-      "comment" : "UI text shown in: Passive Readiness Presenter (CadenceCore/Sources/CadenceFeatures/PassiveReadinessPresenter.swift)"
+      }
     },
     "Recovery may be limited" : {
+      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9330,10 +9547,10 @@
             "value" : "恢復可能不足"
           }
         }
-      },
-      "comment" : "UI text shown in: Readiness Check In Presenter (CadenceCore/Sources/CadenceFeatures/ReadinessCheckInPresenter.swift)"
+      }
     },
     "Recovery note" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9383,10 +9600,10 @@
             "value" : "恢復提示"
           }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
+      }
     },
     "Remaining gaps: %@" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9436,10 +9653,10 @@
             "value" : "剩餘缺口：%@"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Repeat set" : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9489,10 +9706,10 @@
             "value" : "重複此組"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Rest %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9542,10 +9759,10 @@
             "value" : "休息 %@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Rest earned for today" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9595,10 +9812,10 @@
             "value" : "今天可以休息了"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Rest is training too" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9648,10 +9865,10 @@
             "value" : "休息也是訓練"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Restored %lld workouts" : {
+      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)",
       "localizations" : {
         "de" : {
           "variations" : {
@@ -9803,10 +10020,10 @@
             }
           }
         }
-      },
-      "comment" : "UI text shown in: Backup Center Presenter (CadenceCore/Sources/CadenceFeatures/BackupCenterPresenter.swift)"
+      }
     },
     "Resume workout" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9856,10 +10073,63 @@
             "value" : "繼續訓練"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
+    },
+    "RPE %lld" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RPE %lld"
+          }
+        }
+      }
     },
     "Same %@ again" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9909,10 +10179,10 @@
             "value" : "再來一次 %@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Same %@, %@%@ %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9968,10 +10238,10 @@
             "value" : "同 %1$@，%2$@%3$@ %4$@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Saved by your iPhone after sync" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10021,10 +10291,10 @@
             "value" : "同步後由 iPhone 儲存"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Sending to iPhone · %lld left" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10074,10 +10344,10 @@
             "value" : "正在傳送到 iPhone · 還剩 %lld"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Sends when your iPhone is nearby" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10127,10 +10397,10 @@
             "value" : "iPhone 在附近時傳送"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Set %lld of %lld, %@%@%@, %lld reps, %@" : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10186,10 +10456,10 @@
             "value" : "第 %lld 組，共 %lld 組，%@%@%@，%lld 下，%@"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Single-set volume" : {
+      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10239,10 +10509,10 @@
             "value" : "單組訓練量"
           }
         }
-      },
-      "comment" : "UI text shown in: PRMoment Presenter (CadenceCore/Sources/CadenceFeatures/PRMomentPresenter.swift)"
+      }
     },
     "Skewed to heavy loads — aligned with a strength goal." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10292,10 +10562,10 @@
             "value" : "偏重大負荷——符合力量目標。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Skip rest" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10345,10 +10615,10 @@
             "value" : "略過休息"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Some words were guessed" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10398,10 +10668,10 @@
             "value" : "部分詞語為推測"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Source" : {
+      "comment" : "UI text shown in: Citation Presenter (CadenceCore/Sources/CadenceFeatures/CitationPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10451,10 +10721,10 @@
             "value" : "來源"
           }
         }
-      },
-      "comment" : "UI text shown in: Citation Presenter (CadenceCore/Sources/CadenceFeatures/CitationPresenter.swift)"
+      }
     },
     "Sources" : {
+      "comment" : "UI text shown in: Citation Presenter (CadenceCore/Sources/CadenceFeatures/CitationPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10504,10 +10774,10 @@
             "value" : "來源"
           }
         }
-      },
-      "comment" : "UI text shown in: Citation Presenter (CadenceCore/Sources/CadenceFeatures/CitationPresenter.swift)"
+      }
     },
     "Speed work in the books" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10557,10 +10827,10 @@
             "value" : "速度訓練已完成"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Spread across loads — hypertrophy favors more moderate-rep work." : {
+      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10610,10 +10880,10 @@
             "value" : "負荷分布分散——增肌更適合中等次數訓練。"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Presenter (CadenceCore/Sources/CadenceFeatures/ProgressPresenter.swift)"
+      }
     },
     "Start %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10663,10 +10933,10 @@
             "value" : "開始%@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Start rest" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10716,10 +10986,10 @@
             "value" : "開始休息"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Start training with the Coach" : {
+      "comment" : "UI text shown in: Onboarding Model (CadenceCore/Sources/CadenceFeatures/OnboardingModel.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10769,10 +11039,10 @@
             "value" : "開始跟隨教練訓練"
           }
         }
-      },
-      "comment" : "UI text shown in: Onboarding Model (CadenceCore/Sources/CadenceFeatures/OnboardingModel.swift)"
+      }
     },
     "Start workout" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10822,10 +11092,10 @@
             "value" : "開始訓練"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Starts with this week's completed sets, credited from published movement analyses: a set counts once for a muscle the movement trains directly, half for one it trains indirectly, and not at all for one that only stabilises." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10875,10 +11145,10 @@
             "value" : "依據本週已完成的組，並依已發表的動作分析計分：對動作直接訓練的肌肉計 1 組，間接訓練的計半組，僅起穩定作用的不計。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Strength" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10928,10 +11198,10 @@
             "value" : "肌力"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Strength is done today" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -10981,10 +11251,10 @@
             "value" : "今天的力量訓練已完成"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Strength over time" : {
+      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11034,10 +11304,10 @@
             "value" : "力量變化"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)"
+      }
     },
     "Strength session" : {
+      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift); Today Activity Presenter (CadenceCore/Sources/CadenceFeatures/TodayActivityPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11087,10 +11357,10 @@
             "value" : "力量訓練"
           }
         }
-      },
-      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift); Today Activity Presenter (CadenceCore/Sources/CadenceFeatures/TodayActivityPresenter.swift)"
+      }
     },
     "Swipe up or use the actions menu to edit, repeat, or delete this set." : {
+      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11140,10 +11410,10 @@
             "value" : "向上滑動或使用動作選單來編輯、重複或刪除此組。"
           }
         }
-      },
-      "comment" : "UI text shown in: Set Row Accessibility (CadenceCore/Sources/CadenceFeatures/SetRowAccessibility.swift)"
+      }
     },
     "Switch to %@" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11193,10 +11463,10 @@
             "value" : "切換到 %@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "Syncing to Watch" : {
+      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11246,10 +11516,10 @@
             "value" : "正在同步到手錶"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)"
+      }
     },
     "Tap Check for Live HR to connect your Apple Watch" : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11299,10 +11569,10 @@
             "value" : "點一下「檢查即時心率」以連接 Apple Watch"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
+      }
     },
     "Target ≤%lld RIR" : {
+      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11352,10 +11622,10 @@
             "value" : "目標 ≤%lld RIR"
           }
         }
-      },
-      "comment" : "UI text shown in: Editable Plan (CadenceCore/Sources/CadenceFeatures/EditablePlan.swift)"
+      }
     },
     "Tempo" : {
+      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11405,10 +11675,10 @@
             "value" : "節奏"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)"
+      }
     },
     "Tests" : {
+      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11458,10 +11728,10 @@
             "value" : "測驗"
           }
         }
-      },
-      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)"
+      }
     },
     "This Apple Watch can’t stream heart rate to your iPhone." : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11511,10 +11781,10 @@
             "value" : "此 Apple Watch 無法將心率即時傳輸到你的 iPhone。"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
+      }
     },
     "This is a planned day. Start it from the Workout tab when it's today." : {
+      "comment" : "UI text shown in: Planned Day Preview Presenter (CadenceCore/Sources/CadenceFeatures/PlannedDayPreviewPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11564,10 +11834,10 @@
             "value" : "這是計畫日。到當天時從「訓練」標籤開始。"
           }
         }
-      },
-      "comment" : "UI text shown in: Planned Day Preview Presenter (CadenceCore/Sources/CadenceFeatures/PlannedDayPreviewPresenter.swift)"
+      }
     },
     "This is a rest day, enjoy it, you earned it!" : {
+      "comment" : "UI text shown in: Planned Day Preview Presenter (CadenceCore/Sources/CadenceFeatures/PlannedDayPreviewPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11617,10 +11887,10 @@
             "value" : "今天是休息日，好好享受吧，這是你應得的！"
           }
         }
-      },
-      "comment" : "UI text shown in: Planned Day Preview Presenter (CadenceCore/Sources/CadenceFeatures/PlannedDayPreviewPresenter.swift)"
+      }
     },
     "This suggestion also uses your onboarding preferences, so review it before starting." : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11670,10 +11940,10 @@
             "value" : "此建議也參考了你的初始設定偏好，開始前請先查看。"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Threshold" : {
+      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11723,10 +11993,10 @@
             "value" : "乳酸閾值"
           }
         }
-      },
-      "comment" : "UI text shown in: Watch HRProvider (CadenceCore/Sources/CadenceFeatures/WatchHRProvider.swift)"
+      }
     },
     "Today's workouts are completed" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11776,10 +12046,10 @@
             "value" : "今天的訓練已完成"
           }
         }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
+      }
     },
     "Undo last set" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11829,10 +12099,10 @@
             "value" : "還原上一組"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "View Suggested Workout" : {
+      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11882,10 +12152,10 @@
             "value" : "查看建議訓練"
           }
         }
-      },
-      "comment" : "UI text shown in: Suggested Workout Presenter (CadenceCore/Sources/CadenceFeatures/SuggestedWorkoutPresenter.swift)"
+      }
     },
     "Vigorous" : {
+      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -11935,646 +12205,10 @@
             "value" : "高強度"
           }
         }
-      },
-      "comment" : "UI text shown in: Home Dashboard Presenter (CadenceCore/Sources/CadenceFeatures/HomeDashboardPresenter.swift)"
-    },
-    "Watch sync failed" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch-Synchronisierung fehlgeschlagen"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch sync failed"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Falló la sincronización con el Watch"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Échec de la synchronisation de la Watch"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch-synchronisatie mislukt"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Falha na sincronização com o Watch"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "手表同步失败"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "手錶同步失敗"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)"
-    },
-    "Watch sync failed: %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch-Synchronisierung fehlgeschlagen: %@"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch sync failed: %@"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Falló la sincronización con el Watch: %@"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Échec de la synchronisation de la Watch : %@"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch-synchronisatie mislukt: %@"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Falha na sincronização com o Watch: %@"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "手表同步失败：%@"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "手錶同步失敗：%@"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)"
-    },
-    "Watch synced" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch synchronisiert"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch synced"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch sincronizado"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch synchronisée"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch gesynchroniseerd"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Watch sincronizado"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "手表已同步"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "手錶已同步"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)"
-    },
-    "Week complete" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Woche abgeschlossen"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Week complete"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Semana completada"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Semaine terminée"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Week voltooid"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Semana concluída"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "本周完成"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "本週完成"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Week Close Moment (CadenceCore/Sources/CadenceFeatures/WeekCloseMoment.swift)"
-    },
-    "Workout" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Training"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Workout"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Entrenamiento"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Entraînement"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Training"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Treino"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "训练"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "訓練"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Active Workout Model (CadenceCore/Sources/CadenceFeatures/ActiveWorkoutModel.swift)"
-    },
-    "Workout History" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Trainingsverlauf"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Workout History"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Historial de entrenamientos"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Historique des entraînements"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Trainingsgeschiedenis"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Histórico de treinos"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "训练历史"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "訓練紀錄"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)"
-    },
-    "You lift next" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Du bist als Nächstes dran"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "You lift next"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Te toca a ti"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "À vous ensuite"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Jij tilt hierna"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Você levanta a seguir"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "下一位：你"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "下一位：你"
-          }
-        }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
-    },
-    "You put in the work" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Du hast es dir verdient"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "You put in the work"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Has hecho el trabajo"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Vous avez fait le travail"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Je hebt het werk gedaan"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Você fez a sua parte"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你付出了努力"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你付出了努力"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)"
-    },
-    "You reached your strength, cardio, and consistency goals." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Du hast deine Ziele für Kraft, Cardio und Regelmäßigkeit erreicht."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "You reached your strength, cardio, and consistency goals."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Has alcanzado tus objetivos de fuerza, cardio y constancia."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Vous avez atteint vos objectifs de force, de cardio et de régularité."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Je hebt je doelen voor kracht, cardio en regelmaat gehaald."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Você atingiu suas metas de força, cardio e constância."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你达成了力量、有氧和坚持目标。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你達成了力量、有氧和持續目標。"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Week Close Moment (CadenceCore/Sources/CadenceFeatures/WeekCloseMoment.swift)"
-    },
-    "Your Apple Watch couldn’t start the workout. Tap Check for Live HR to try again." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Deine Apple Watch konnte das Training nicht starten. Tippe auf „Live-HF prüfen“, um es erneut zu versuchen."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Your Apple Watch couldn’t start the workout. Tap Check for Live HR to try again."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Tu Apple Watch no pudo iniciar el entrenamiento. Toca «Comprobar FC en vivo» para intentarlo de nuevo."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Votre Apple Watch n’a pas pu démarrer l’entraînement. Touchez « Vérifier la FC en direct » pour réessayer."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Je Apple Watch kon de training niet starten. Tik op 'Controleer live hartslag' om het opnieuw te proberen."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Seu Apple Watch não conseguiu iniciar o treino. Toque em “Verificar FC ao vivo” para tentar de novo."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你的 Apple Watch 无法开始训练。轻点“检查实时心率”重试。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你的 Apple Watch 無法開始訓練。點一下「檢查即時心率」重試。"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
-    },
-    "Your Apple Watch is still finishing an earlier heart-rate session. Tap Check for Live HR again." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Deine Apple Watch beendet noch eine frühere Herzfrequenzsitzung. Tippe erneut auf „Live-HF prüfen“."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Your Apple Watch is still finishing an earlier heart-rate session. Tap Check for Live HR again."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Tu Apple Watch aún está terminando una sesión anterior de frecuencia cardiaca. Vuelve a tocar «Comprobar FC en vivo»."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Votre Apple Watch termine encore une session de fréquence cardiaque précédente. Touchez à nouveau « Vérifier la FC en direct »."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Je Apple Watch rondt nog een eerdere hartslagsessie af. Tik opnieuw op 'Controleer live hartslag'."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Seu Apple Watch ainda está encerrando uma sessão anterior de frequência cardíaca. Toque de novo em “Verificar FC ao vivo”."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你的 Apple Watch 仍在结束之前的心率会话。请再次轻点“检查实时心率”。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你的 Apple Watch 仍在結束之前的心率工作階段。請再點一下「檢查即時心率」。"
-          }
-        }
-      },
-      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)"
-    },
-    "Zone %lld" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zone %lld"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zone %lld"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zona %lld"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zone %lld"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zone %lld"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zona %lld"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld 区"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld 區"
-          }
-        }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
     "warm-up" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -12624,273 +12258,653 @@
             "value" : "熱身"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
-    "× %lld" : {
+    "Watch sync failed" : {
+      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "Watch-Synchronisierung fehlgeschlagen"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "Watch sync failed"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "Falló la sincronización con el Watch"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "Échec de la synchronisation de la Watch"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "Watch-synchronisatie mislukt"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "Falha na sincronização com o Watch"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "手表同步失败"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "× %lld"
+            "value" : "手錶同步失敗"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
-    "“%@ for 5”" : {
+    "Watch sync failed: %@" : {
+      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "„%@ für 5“"
+            "value" : "Watch-Synchronisierung fehlgeschlagen: %@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“%@ for 5”"
+            "value" : "Watch sync failed: %@"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "«%@ por 5»"
+            "value" : "Falló la sincronización con el Watch: %@"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "« %@ pour 5 »"
+            "value" : "Échec de la synchronisation de la Watch : %@"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "‘%@ voor 5’"
+            "value" : "Watch-synchronisatie mislukt: %@"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“%@ por 5”"
+            "value" : "Falha na sincronização com o Watch: %@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“%@ 5 次”"
+            "value" : "手表同步失败：%@"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "「%@ 5 下」"
+            "value" : "手錶同步失敗：%@"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
-    "“Sam, %@ for 8”" : {
+    "Watch synced" : {
+      "comment" : "UI text shown in: Watch Sync (CadenceCore/Sources/CadenceFeatures/WatchSync.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "„Sam, %@ für 8“"
+            "value" : "Watch synchronisiert"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“Sam, %@ for 8”"
+            "value" : "Watch synced"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "«Sam, %@ por 8»"
+            "value" : "Watch sincronizado"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "« Sam, %@ pour 8 »"
+            "value" : "Watch synchronisée"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "‘Sam, %@ voor 8’"
+            "value" : "Watch gesynchroniseerd"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“Sam, %@ por 8”"
+            "value" : "Watch sincronizado"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“Sam，%@ 8 次”"
+            "value" : "手表已同步"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "「Sam，%@ 8 下」"
+            "value" : "手錶已同步"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
-    "“rest two minutes”" : {
+    "Week complete" : {
+      "comment" : "UI text shown in: Week Close Moment (CadenceCore/Sources/CadenceFeatures/WeekCloseMoment.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "„zwei Minuten Pause“"
+            "value" : "Woche abgeschlossen"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“rest two minutes”"
+            "value" : "Week complete"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "«descanso dos minutos»"
+            "value" : "Semana completada"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "« repos deux minutes »"
+            "value" : "Semaine terminée"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "‘twee minuten rust’"
+            "value" : "Week voltooid"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“descanso dois minutos”"
+            "value" : "Semana concluída"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“休息两分钟”"
+            "value" : "本周完成"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "「休息兩分鐘」"
+            "value" : "本週完成"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
     },
-    "“same again”" : {
+    "Workout" : {
+      "comment" : "UI text shown in: Active Workout Model (CadenceCore/Sources/CadenceFeatures/ActiveWorkoutModel.swift)",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "„nochmal dasselbe“"
+            "value" : "Training"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“same again”"
+            "value" : "Workout"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "«lo mismo otra vez»"
+            "value" : "Entrenamiento"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "« pareil »"
+            "value" : "Entraînement"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "‘zelfde nog een keer’"
+            "value" : "Training"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“de novo”"
+            "value" : "Treino"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "“同上”"
+            "value" : "训练"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "「同上」"
+            "value" : "訓練"
           }
         }
-      },
-      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md)."
+      }
+    },
+    "Workout History" : {
+      "comment" : "UI text shown in: Progress Question Selection (CadenceCore/Sources/CadenceFeatures/ProgressQuestionSelection.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trainingsverlauf"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Workout History"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Historial de entrenamientos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Historique des entraînements"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trainingsgeschiedenis"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Histórico de treinos"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "训练历史"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "訓練紀錄"
+          }
+        }
+      }
+    },
+    "You have logged %lld consecutive hard training days." : {
+
+    },
+    "You lift next" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Du bist als Nächstes dran"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "You lift next"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Te toca a ti"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "À vous ensuite"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Jij tilt hierna"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Você levanta a seguir"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "下一位：你"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "下一位：你"
+          }
+        }
+      }
+    },
+    "You put in the work" : {
+      "comment" : "UI text shown in: Coach Hero Presenter (CadenceCore/Sources/CadenceFeatures/CoachHeroPresenter.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Du hast es dir verdient"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "You put in the work"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Has hecho el trabajo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vous avez fait le travail"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Je hebt het werk gedaan"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Você fez a sua parte"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你付出了努力"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你付出了努力"
+          }
+        }
+      }
+    },
+    "You reached your strength set and cardio minute goals." : {
+
+    },
+    "You reached your strength, cardio, and consistency goals." : {
+      "comment" : "UI text shown in: Week Close Moment (CadenceCore/Sources/CadenceFeatures/WeekCloseMoment.swift)",
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Du hast deine Ziele für Kraft, Cardio und Regelmäßigkeit erreicht."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "You reached your strength, cardio, and consistency goals."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Has alcanzado tus objetivos de fuerza, cardio y constancia."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vous avez atteint vos objectifs de force, de cardio et de régularité."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Je hebt je doelen voor kracht, cardio en regelmaat gehaald."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Você atingiu suas metas de força, cardio e constância."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你达成了力量、有氧和坚持目标。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你達成了力量、有氧和持續目標。"
+          }
+        }
+      }
+    },
+    "Your Apple Watch couldn’t start the workout. Tap Check for Live HR to try again." : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deine Apple Watch konnte das Training nicht starten. Tippe auf „Live-HF prüfen“, um es erneut zu versuchen."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Your Apple Watch couldn’t start the workout. Tap Check for Live HR to try again."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tu Apple Watch no pudo iniciar el entrenamiento. Toca «Comprobar FC en vivo» para intentarlo de nuevo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Votre Apple Watch n’a pas pu démarrer l’entraînement. Touchez « Vérifier la FC en direct » pour réessayer."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Je Apple Watch kon de training niet starten. Tik op 'Controleer live hartslag' om het opnieuw te proberen."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seu Apple Watch não conseguiu iniciar o treino. Toque em “Verificar FC ao vivo” para tentar de novo."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你的 Apple Watch 无法开始训练。轻点“检查实时心率”重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你的 Apple Watch 無法開始訓練。點一下「檢查即時心率」重試。"
+          }
+        }
+      }
+    },
+    "Your Apple Watch is still finishing an earlier heart-rate session. Tap Check for Live HR again." : {
+      "comment" : "UI text shown in: Watch HRRelay (CadenceCore/Sources/CadenceFeatures/WatchHRRelay.swift)",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deine Apple Watch beendet noch eine frühere Herzfrequenzsitzung. Tippe erneut auf „Live-HF prüfen“."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Your Apple Watch is still finishing an earlier heart-rate session. Tap Check for Live HR again."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tu Apple Watch aún está terminando una sesión anterior de frecuencia cardiaca. Vuelve a tocar «Comprobar FC en vivo»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Votre Apple Watch termine encore une session de fréquence cardiaque précédente. Touchez à nouveau « Vérifier la FC en direct »."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Je Apple Watch rondt nog een eerdere hartslagsessie af. Tik opnieuw op 'Controleer live hartslag'."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seu Apple Watch ainda está encerrando uma sessão anterior de frequência cardíaca. Toque de novo em “Verificar FC ao vivo”."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你的 Apple Watch 仍在结束之前的心率会话。请再次轻点“检查实时心率”。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "你的 Apple Watch 仍在結束之前的心率工作階段。請再點一下「檢查即時心率」。"
+          }
+        }
+      }
+    },
+    "Your previous workout choices favor this option." : {
+
+    },
+    "Zone %lld" : {
+      "comment" : "Watch redesign UI text (plans/watch-redesign/2026-09-30/DESIGN.md).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zone %lld"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zone %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zona %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zone %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zone %lld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zona %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld 区"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld 區"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

@@ -5,13 +5,19 @@
       "comment" : "Info.plist CFBundleDisplayName — iPhone app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron"
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Cladiron"
@@ -52,11 +58,17 @@
             "state" : "needs_review",
             "value" : "Cladiron"
           }
-        },
-        "en-GB" : {
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron"
+            "state" : "new",
+            "value" : "Cadence"
           }
         }
       }
@@ -65,16 +77,22 @@
       "comment" : "Info.plist NSBluetoothAlwaysUsageDescription — iPhone app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron verbindet sich mit einem Bluetooth-Brustgurt, um während des Trainings eine genaue Herzfrequenz aufzuzeichnen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron connects to a Bluetooth chest strap to record accurate heart rate during workouts."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron verbindet sich mit einem Bluetooth-Brustgurt, um während des Trainings eine genaue Herzfrequenz aufzuzeichnen."
+            "value" : "Cladiron connects to a Bluetooth chest strap to record accurate heart rate during workouts."
           }
         },
         "es" : {
@@ -112,12 +130,6 @@
             "state" : "needs_review",
             "value" : "Cladiron 會連接藍牙胸帶，在訓練時準確記錄心率。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron connects to a Bluetooth chest strap to record accurate heart rate during workouts."
-          }
         }
       }
     },
@@ -125,16 +137,22 @@
       "comment" : "Info.plist NSHealthShareUsageDescription — iPhone app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron liest deine Schritte, Trainings, Herzfrequenz und – für erholungsbewusstes Coaching – Herzfrequenzvariabilität, Ruhepuls, Schlaf und Körpergewicht, damit deine Aktivität, auf der Watch aufgezeichnete Einheiten und deine Bereitschaft hier erscheinen. Deine Gesundheitsdaten verlassen nie dein Gerät."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron reads your steps, workouts, heart rate, and — for recovery-aware coaching — your heart-rate variability, resting heart rate, sleep, and body weight, so your activity, Watch-recorded sessions, and readiness appear here. Your health data never leaves your device."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron liest deine Schritte, Trainings, Herzfrequenz und – für erholungsbewusstes Coaching – Herzfrequenzvariabilität, Ruhepuls, Schlaf und Körpergewicht, damit deine Aktivität, auf der Watch aufgezeichnete Einheiten und deine Bereitschaft hier erscheinen. Deine Gesundheitsdaten verlassen nie dein Gerät."
+            "value" : "Cladiron reads your steps, workouts, heart rate, and — for recovery-aware coaching — your heart-rate variability, resting heart rate, sleep, and body weight, so your activity, Watch-recorded sessions, and readiness appear here. Your health data never leaves your device."
           }
         },
         "es" : {
@@ -172,12 +190,6 @@
             "state" : "needs_review",
             "value" : "Cladiron 會讀取你的步數、訓練和心率，並為了兼顧恢復的指導讀取心率變異度、靜止心率、睡眠和體重，以便在此顯示你的活動、手錶記錄的訓練和準備度。你的健康資料絕不會離開你的裝置。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron reads your steps, workouts, heart rate, and — for recovery-aware coaching — your heart-rate variability, resting heart rate, sleep, and body weight, so your activity, Watch-recorded sessions, and readiness appear here. Your health data never leaves your device."
-          }
         }
       }
     },
@@ -185,16 +197,22 @@
       "comment" : "Info.plist NSHealthUpdateUsageDescription — iPhone app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron sichert Zusammenfassungen deiner Trainings (Kraft, Cardio, Intervalle und Schwimmen) in Apple Health, damit sie systemweit erscheinen und deine Aktivitätsringe schließen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron saves summaries of your workouts (strength, cardio, intervals, and swim) to Apple Health so they appear system-wide and close your Activity rings."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron sichert Zusammenfassungen deiner Trainings (Kraft, Cardio, Intervalle und Schwimmen) in Apple Health, damit sie systemweit erscheinen und deine Aktivitätsringe schließen."
+            "value" : "Cladiron saves summaries of your workouts (strength, cardio, intervals, and swim) to Apple Health so they appear system-wide and close your Activity rings."
           }
         },
         "es" : {
@@ -232,12 +250,6 @@
             "state" : "needs_review",
             "value" : "Cladiron 會將你的訓練摘要（力量、有氧、間歇和游泳）儲存到 Apple 健康，使其在系統中顯示並幫你填滿活動圓圈。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron saves summaries of your workouts (strength, cardio, intervals, and swim) to Apple Health so they appear system-wide and close your Activity rings."
-          }
         }
       }
     },
@@ -245,16 +257,22 @@
       "comment" : "Info.plist NSLocationWhenInUseUsageDescription — iPhone app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron nutzt deinen Standort, um Läufe und Radfahrten im Freien, die du mit dem iPhone aufzeichnest, zu kartieren und zu messen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron uses your location to map and measure outdoor runs and rides recorded on your iPhone."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron nutzt deinen Standort, um Läufe und Radfahrten im Freien, die du mit dem iPhone aufzeichnest, zu kartieren und zu messen."
+            "value" : "Cladiron uses your location to map and measure outdoor runs and rides recorded on your iPhone."
           }
         },
         "es" : {
@@ -292,12 +310,6 @@
             "state" : "needs_review",
             "value" : "Cladiron 會使用你的位置來繪製和測量在 iPhone 上記錄的戶外跑步與騎車。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron uses your location to map and measure outdoor runs and rides recorded on your iPhone."
-          }
         }
       }
     },
@@ -305,16 +317,22 @@
       "comment" : "Info.plist NSMicrophoneUsageDescription — iPhone app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron nutzt das Mikrofon nur, wenn du Quick Talk wählst, um ein Training freihändig zu protokollieren."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron uses the microphone only when you choose Quick Talk to log a workout hands-free."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron nutzt das Mikrofon nur, wenn du Quick Talk wählst, um ein Training freihändig zu protokollieren."
+            "value" : "Cladiron uses the microphone only when you choose Quick Talk to log a workout hands-free."
           }
         },
         "es" : {
@@ -352,12 +370,6 @@
             "state" : "needs_review",
             "value" : "Cladiron 僅在你選擇 Quick Talk 免手動記錄訓練時使用麥克風。"
           }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron uses the microphone only when you choose Quick Talk to log a workout hands-free."
-          }
         }
       }
     },
@@ -365,16 +377,22 @@
       "comment" : "Info.plist NSSpeechRecognitionUsageDescription — iPhone app permission prompt",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cladiron transkribiert deinen gesprochenen Trainingsbefehl, damit du ihn prüfen kannst, bevor etwas protokolliert wird."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cladiron transcribes your spoken workout command so you can review it before anything is logged."
           }
         },
-        "de" : {
+        "en-GB" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Cladiron transkribiert deinen gesprochenen Trainingsbefehl, damit du ihn prüfen kannst, bevor etwas protokolliert wird."
+            "value" : "Cladiron transcribes your spoken workout command so you can review it before anything is logged."
           }
         },
         "es" : {
@@ -411,12 +429,6 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Cladiron 會轉錄你的語音訓練指令，讓你在記錄前確認。"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Cladiron transcribes your spoken workout command so you can review it before anything is logged."
           }
         }
       }
