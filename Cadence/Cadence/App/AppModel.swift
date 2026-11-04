@@ -2,7 +2,6 @@ import Foundation
 import SwiftUI
 import Observation
 import SwiftData
-import WatchConnectivity
 import HealthKit
 import CloudKit
 import CoreData
@@ -122,17 +121,13 @@ final class AppModel: NSObject, @unchecked Sendable {
     private(set) var watchStartInProgress: Bool = false
     /// When set, the watch was told to start but never confirmed.
     private(set) var watchError: String?
-    let watchHRRelay: WatchHRRelay
-    private var watchTimeout: Timer?
-    /// Monotonic stamp shared by immediate and guaranteed-background control
+            /// Monotonic stamp shared by immediate and guaranteed-background control
     /// messages. The Watch uses it to ignore a delayed stop from an older
     /// workout after a newer workout has already begun.
-    private var lastWatchHRCommandIssuedAt = UserDefaults.standard.double(forKey: "watchHR.lastCommandIssuedAt")
-    /// When a `start_workout` is rejected `.alreadyActive`, this is armed for the
+        /// When a `start_workout` is rejected `.alreadyActive`, this is armed for the
     /// 1.2 s teardown window so the stop-then-retry-once fires only while the
     /// user is still on the HR screen (any new start/stop disarms it).
-    private var watchRetryArmed = false
-    /// The start request still waiting for the Watch's first answer. Both the
+        /// The start request still waiting for the Watch's first answer. Both the
     /// immediate reply and the Watch's answer to the queued copy (the only
     /// answer a Watch app the phone launched can give) may arrive; the first
     /// decides retry or failure, and later ones only confirm.
@@ -149,19 +144,16 @@ final class AppModel: NSObject, @unchecked Sendable {
     /// UI-test seam (`-uiTestWatchStop`): record every `stopWatchWorkout()` call
     /// into `UserDefaults("uitest.watchStopCount")` so the iPhone smoke test can
     /// assert the cardio end paths actually stop the watch session.
-    private let recordsWatchStop: Bool
-    /// Only meaningful while `recordsWatchStop`; the running call count surfaced
+        /// Only meaningful while `recordsWatchStop`; the running call count surfaced
     /// to the smoke test through the same UserDefaults key.
-    private var watchStopCount: Int = 0
-
+    
     /// Cached once at launch — avoids hitting `WCSession.default.isWatchAppInstalled`
     /// (a synchronous IPC call) from SwiftUI body evaluation.
     private(set) var watchAppInstalled: Bool = false
     private(set) var watchSyncState: WatchSync.Status = .idle
     private(set) var lastWatchSyncAt: Date? = UserDefaults.standard.object(forKey: "settings.lastWatchSyncAt") as? Date
     private(set) var lastWatchSyncError: String?
-    private let watchSessionDelegate: WatchSessionDelegateProxy
-    private(set) var cloudKitAccountAvailability: CloudKitAccountAvailability = .checking
+        private(set) var cloudKitAccountAvailability: CloudKitAccountAvailability = .checking
     private(set) var isRestoringCloudKitHistory = false
     private(set) var cloudKitImportStatus: CloudKitImportStatus = .idle
     private var cloudKitEventObserver: NSObjectProtocol?
@@ -170,8 +162,7 @@ final class AppModel: NSObject, @unchecked Sendable {
     /// WatchConnectivity callback and were the last app-owned work in the
     /// RUNNINGBOARD 0xdead10cc crash stack.
     private var applicationIsActive = false
-    private static let pendingWatchImportKey = "watch.pendingImports.v1"
-    /// CloudKit can deliver several import events while a new device is being
+        /// CloudKit can deliver several import events while a new device is being
     /// hydrated. Keep Home in its lightweight placeholder state until the
     /// import burst has been quiet for a moment, then let it rebuild once.
     private var cloudKitImportQuietTask: Task<Void, Never>?
@@ -352,8 +343,7 @@ final class AppModel: NSObject, @unchecked Sendable {
 
     /// Activates the WCSession and caches `isWatchAppInstalled`. Called once from
     /// `CadenceApp.task{}` so it doesn't block launch (FR-8 reliability fix).
-    func activateWCSession() {
-        guard Self.liveWatchHREnabled, !isUITestMode, WCSession.isSupported() else { return }
+    func activateWCSession() {}
         let session = WCSession.default
         // WatchConnectivity invokes its delegate on a private queue. Keep the
         // Objective-C delegate nonisolated and hop into AppModel's main actor.
@@ -393,13 +383,7 @@ final class AppModel: NSObject, @unchecked Sendable {
     var cachedTodayPlanForTesting: WatchSync.TodayPlan? { cachedTodayPlan }
     #endif
 
-    func configureWatchSync(settings: AppSettings, container: ModelContainer,
-                            active: ActiveWorkoutModel? = nil) {
-        _settings = settings
-        _modelContainer = container
-        _active = active
-        drainPendingWatchImportsIfNeeded()
-    }
+    func configureWatchSync(settings: AppSettings, container: ModelContainer, active: ActiveWorkoutModel) {}
 
     func setApplicationActive(_ active: Bool) {
         applicationIsActive = active
