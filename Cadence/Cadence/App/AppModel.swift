@@ -952,8 +952,12 @@ extension AppModel {
             }
             let ext = message[WatchSync.Key.quickTalkFileExtension] as? String ?? "m4a"
             Task { @MainActor in
-                let reply = await QuickTalkClipTranscriber.transcribe(audio, fileExtension: ext)
-                replyHandler?(reply)
+                if #available(iOS 26.0, *) {
+                    let reply = await QuickTalkClipTranscriber.transcribe(audio, fileExtension: ext)
+                    replyHandler?(reply)
+                } else {
+                    replyHandler?([WatchSync.Key.quickTalkError: "unsupported"])
+                }
             }
             return
         }

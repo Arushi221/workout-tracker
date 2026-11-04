@@ -190,7 +190,7 @@ struct RootTabView: View {
 
     @ViewBuilder
     private var nativeTabs: some View {
-        if #available(iOS 18.0, *) {
+        if #available(iOS 26.0, *) {
             TabView(selection: $selection) {
                 SwiftUI.Tab("Today", systemImage: "house", value: .home) { HomeView() }
                 SwiftUI.Tab("Plan", systemImage: "list.bullet.clipboard", value: .plan) {
@@ -264,23 +264,18 @@ private struct LiveWorkoutTabAccessory: ViewModifier {
 
     @ViewBuilder
     func body(content: Content) -> some View {
-        // Xcode 26.0 (Swift 6.2) SDK lacks tabViewBottomAccessory(isEnabled:); keep building there.
-        #if compiler(>=6.2.1)
         if #available(iOS 26.1, *) {
             let enabled = active.isActive && active.strengthSession != nil
             content.tabViewBottomAccessory(isEnabled: enabled) {
                 if let session = active.strengthSession, enabled { accessory(session) }
             }
-        } else {
+        } else if #available(iOS 26.0, *) {
             content.tabViewBottomAccessory {
                 if active.isActive, let session = active.strengthSession { accessory(session) }
             }
+        } else {
+            content
         }
-        #else
-        content.tabViewBottomAccessory {
-            if active.isActive, let session = active.strengthSession { accessory(session) }
-        }
-        #endif
     }
 
     private func accessory(_ session: WorkoutSession) -> some View {
