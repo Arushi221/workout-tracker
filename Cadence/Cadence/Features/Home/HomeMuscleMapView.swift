@@ -9,9 +9,12 @@ struct HomeMuscleMapView: View {
     let onSelect: (MuscleGroup) -> Void
     let onOpenCardio: () -> Void
 
-    private enum MapMetrics {
-        static let displayHeight: CGFloat = 440
-        static let hitPointSize: CGFloat = 64
+    private var volumeDict: [MuscleGroup: Double] {
+        var dict: [MuscleGroup: Double] = [:]
+        for row in (volumeRows ?? dashboard.volume) {
+            dict[row.group] = Double(row.sets)
+        }
+        return dict
     }
 
     private var rows: [HomeDashboardState.VolumeRow] {
@@ -20,19 +23,11 @@ struct HomeMuscleMapView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Picker("Muscle view", selection: $selectedPanel) {
-                Text("Front").tag(MuscleMapPanel.front)
-                Text("Back").tag(MuscleMapPanel.back)
-                Text("List").tag(MuscleMapPanel.list)
-            }
-            .pickerStyle(.segmented)
-            .accessibilityIdentifier("home.week.muscleMap.picker")
-
-            if selectedPanel == .list {
-                muscleList
-            } else {
-                heatMap
-            }
+            DetailedMuscleDiagramView(
+                selectedPanel: $selectedPanel,
+                volumeData: volumeDict,
+                onSelect: onSelect
+            )
 
             let totals = rows.filter(\.isTracked).reduce(0) { $0 + $1.sets }
             let target = rows.filter(\.isTracked).count * 12
@@ -51,151 +46,8 @@ struct HomeMuscleMapView: View {
                 .buttonStyle(.plain)
                 .foregroundStyle(.pink)
             }
-            legend
         }
-        .accessibilityHint("Switch to List for all muscles")
         .accessibilityIdentifier("home.week.sets.muscleMap")
     }
-
-    private var heatMap: some View {
-        let panel = selectedPanel == .front ? MuscleMapPanel.front : .back
-        let visibleGroups = Set(rows.map(\.group))
-        let callouts = MuscleMapLayout.callouts(for: panel, visibleGroups: visibleGroups)
-        let layers = MuscleMapLayout.colourLayers(for: panel, visibleGroups: visibleGroups)
-        return GeometryReader { proxy in
-            let imageSize = anatomyImageSize(in: proxy.size)
-            let imageOrigin = CGPoint(x: (proxy.size.width - imageSize.width) / 2,
-                                      y: (proxy.size.height - imageSize.height) / 2)
-            ZStack {
-                Image(panel == .front ? "MuscleMapFront" : "MuscleMapBack")
-                    .resizable().scaledToFit()
-                    .frame(width: imageSize.width, height: imageSize.height)
-                    .allowsHitTesting(false)
-                    .accessibilityLabel("\(panel == .front ? "Front" : "Back") muscle heat map")
-                // Untracked muscle takes its nearest tracked group's colour (field report 2026-10-04).
-                ForEach(layers) { layer in
-                    muscleRegion(for: layer, panel: panel, imageSize: imageSize)
-                        .position(x: imageOrigin.x + imageSize.width / 2,
-                                  y: imageOrigin.y + imageSize.height / 2)
-                }
-                ForEach(callouts) { callout in
-                    heatButton(for: callout)
-                        .position(x: imageOrigin.x + CGFloat(callout.anchorX) * imageSize.width,
-                                  y: imageOrigin.y + CGFloat(callout.anchorY) * imageSize.height)
-                        .zIndex(1)
-                }
-            }
-            .frame(width: proxy.size.width, height: proxy.size.height)
-        }
-        // Keep the artwork large enough that adjacent 44pt hit targets do not
-        // stack on top of one another. The targets intentionally exceed
-        // Apple's 44pt minimum because this map is used while moving.
-        .frame(height: MapMetrics.displayHeight)
-        .padding(.horizontal, 8)
-        .accessibilityElement(children: .contain)
-    }
-
-    private func anatomyImageSize(in container: CGSize) -> CGSize {
-        let ratio = MuscleMapLayout.panelRatio
-        let height = min(container.height, container.width / ratio)
-        return CGSize(width: height * ratio, height: height)
-    }
-
-    private func muscleRegion(for layer: MuscleMapColourLayer, panel: MuscleMapPanel,
-                              imageSize: CGSize) -> some View {
-        let row = rows.first { $0.group == layer.colourGroup }
-        let level = MuscleHeatPresenter.level(sets: row?.sets ?? 0, target: 12)
-        let mask = Image(MuscleMapLayout.maskAssetName(for: layer.mask, panel: panel))
-            .renderingMode(.template)
-            .resizable()
-            .scaledToFit()
-            .frame(width: imageSize.width, height: imageSize.height)
-            .foregroundStyle(muscleColor(for: level))
-            .allowsHitTesting(false)
-            .accessibilityHidden(true)
-
-        return mask
-    }
-
-    /// red for 0% · yellow below productive · light green building toward
-    /// productive · green productive (field report: muscle-coverage colouring).
-    private func muscleColor(for level: HeatLevel) -> Color {
-        switch level {
-        case .none: return CadenceTheme.muscleZero
-        case .low: return CadenceTheme.muscleBelow
-        case .mid, .high: return CadenceTheme.muscleBuilding
-        case .onTarget: return CadenceTheme.muscleProductive
-        }
-    }
-
-    private func heatButton(for callout: MuscleMapCallout) -> some View {
-        let row = rows.first { $0.group == callout.group }
-        let sets = row?.sets ?? 0
-        let level = MuscleHeatPresenter.level(sets: sets, target: 12)
-        return Button { onSelect(callout.group) } label: {
-            Circle().fill(.clear)
-                .frame(width: MapMetrics.hitPointSize, height: MapMetrics.hitPointSize)
-                .overlay {
-                    if level == .none {
-                        Circle().inset(by: 9).stroke(CadenceTheme.muscleZero,
-                                        style: StrokeStyle(lineWidth: 1.5, dash: [3, 2]))
-                    }
-                }
-                .contentShape(Rectangle())
-        }
-        .buttonStyle(.plain)
-        .accessibilityLabel("\(callout.group.displayName), \(WeeklySetProgress.formattedSets(sets)) of 12 sets")
-        .accessibilityHint("Shows direct and indirect exercise history")
-        .accessibilityIdentifier("home.week.muscle.\(callout.panel.rawValue).\(callout.group.rawValue)")
-    }
-
-    private var muscleList: some View {
-        List {
-            ForEach(rows) { row in
-                Button { onSelect(row.group) } label: {
-                    VStack(alignment: .leading, spacing: 4) {
-                        HStack {
-                            Text(row.displayName)
-                            Spacer()
-                            Text(row.rangeText).font(.caption).foregroundStyle(.secondary)
-                        }
-                        ProgressView(value: row.normalized)
-                            .tint(muscleColor(for: MuscleHeatPresenter.level(sets: row.sets, target: 12)))
-                    }
-                    .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
-                }
-                .buttonStyle(.plain)
-                .accessibilityLabel("\(row.displayName), \(row.rangeText)")
-                .accessibilityIdentifier("home.week.muscleMap.list.\(row.group.rawValue)")
-                .listRowInsets(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 0))
-                .listRowBackground(Color.clear)
-            }
-        }
-        .listStyle(.plain)
-        .scrollDisabled(true)
-        .frame(height: CGFloat(max(1, rows.count) * 58))
-        .accessibilityIdentifier("home.week.muscleMap.list")
-    }
-
-    private var legend: some View {
-        HStack(spacing: 8) {
-            legendItem("0 sets", color: CadenceTheme.muscleZero, dashed: true)
-            legendItem("Below 4", color: CadenceTheme.muscleBelow)
-            legendItem("4–7", color: CadenceTheme.muscleBuilding)
-            legendItem("8+", color: CadenceTheme.muscleProductive)
-        }
-        .font(.caption2)
-        .foregroundStyle(.secondary)
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("Muscle coverage legend: red for zero sets, yellow below the 4-set minimum, light green building toward productive volume, and green for productive volume")
-    }
-
-    private func legendItem(_ title: String, color: Color, dashed: Bool = false) -> some View {
-        HStack(spacing: 3) {
-            RoundedRectangle(cornerRadius: 2).fill(color).frame(width: 12, height: 8)
-                .overlay { if dashed { RoundedRectangle(cornerRadius: 2).stroke(CadenceTheme.attention, style: StrokeStyle(dash: [2, 2])) } }
-            Text(title)
-        }
-    }
-
 }
+
